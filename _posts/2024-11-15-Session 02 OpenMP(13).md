@@ -24,8 +24,6 @@ pin: false
 
 
 
-
-
 ## **A first example**
 
 ```cpp
