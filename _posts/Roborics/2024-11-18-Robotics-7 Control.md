@@ -1,25 +1,13 @@
-
-
 ---
-
 layout: post
-
 title: Robotics 7 Control
-
 author: wichai
-
 date: 2024-11-18 9:00 
-
 categories: [Study, Master]
-
 tags: [DU, Robotics]
-
 mermaid: true
-
 math: true
-
 pin: false
-
 ---
 
 # Control
