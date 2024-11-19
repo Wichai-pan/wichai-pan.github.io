@@ -11,6 +11,7 @@ pin: false
 
 ---
 <!-- [点击查看 PDF 文件](../../docs/OpenMP_simple_Program.pdf) -->
+{% include embed/bilibili.html id='BV1dd4y1B7Xb' %}
 # Introduction to High Performance Computing (HPC)
 
 # Open MP
