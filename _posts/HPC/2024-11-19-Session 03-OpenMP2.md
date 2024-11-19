@@ -14,7 +14,7 @@ pin: false
 
 <!-- [点击查看 PDF 文件](../../docs/OpenMP_simple_Program.pdf) -->
 <!-- {% include embed/bilibili.html id='BV1dd4y1B7Xb' %} -->
-<iframe src = "https://github.com/Wichai-pan/wichai-pan.github.io/blob/main/docs/OpenMP_simple_Program.pdf"></iframe>
+<iframe src = "https://lemon-412.github.io/imgs/20200516OpenMP_simple_Program.pdf" width = "100%"></iframe>
 # Introduction to High Performance Computing (HPC)
 
 # Open MP
