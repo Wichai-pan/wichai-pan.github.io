@@ -10,7 +10,7 @@ math: true
 pin: false
 
 ---
-[点击查看 PDF 文件](../../docs/OpenMP_simple_Program.pdf)
+<!-- [点击查看 PDF 文件](../../docs/OpenMP_simple_Program.pdf) -->
 # Introduction to High Performance Computing (HPC)
 
 # Open MP
