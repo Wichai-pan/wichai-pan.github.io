@@ -8,14 +8,14 @@ tags: [DU, HPC]
 mermaid: true
 math: true
 pin: false
-
 ---
+
 <iframe src = "https://wichai-pan.github.io/assets/docs/OpenMP_simple_Program.pdf" width = "100%" height = "1000px"></iframe>
 
 
 # Introduction to High Performance Computing (HPC)
 
-# Open MP
+# Open MP (2/3)
 
 ## Race conditions
 
