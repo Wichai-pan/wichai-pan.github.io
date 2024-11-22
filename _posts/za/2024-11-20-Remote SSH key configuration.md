@@ -4,7 +4,7 @@ title: VScode 使用Remote SSH 连接服务器并配置密钥
 author: wichai
 date: 2024-11-21 00:35 +0000
 categories: [Study, Master]
-tags: [Remote SSH, VScode]
+tags: [Remote SSH, VScode, HPC]
 mermaid: true
 math: true
 pin: false
