@@ -10,18 +10,19 @@ math: true
 pin: false
 ---
 
-<iframe src = "https://wichai-pan.github.io/assets/docs/OpenMP_simple_Program.pdf" width = "100%" height = "1000px"></iframe>
+<!-- <iframe src = "https://wichai-pan.github.io/assets/docs/OpenMP_simple_Program.pdf" width = "100%" height = "1000px"></iframe> -->
 
 
 # Introduction to High Performance Computing (HPC)
 
 # Open MP (2/3)
 
-## Race conditions
+## Race conditions 竞争条件
 
-Race conditions arise from interdependency on data access across threads
+Race conditions arise from interdependency on data access across threads 源于跨线程数据访问的相互依赖
 
 These result from dependencies (read-write, write-read, write-write) on a position in memory
+对内存位置的依赖关系（读写、写读、写写）而产生的
 
 ➡️These manifest as indeterminacy in your program, and are sensitive to the memory model of your machine and how many threads are used.
 
@@ -43,7 +44,7 @@ int main() {
   const int N=100;
   #pragma omp parallel for 
   for (int n=1; n<N+1; n++){
-  	sum +=n; // Race condition here 
+  	sum +=n; // <<-- Race condition here 
 	}
   printf("Result is %d. It should be %d\n", sum, N*(N+1)/2);
   return 0; 
@@ -51,13 +52,13 @@ int main() {
 ```
 
 - The variable sum is accessed for both reading and writing in parallel
-  - ➡️ Thread 0 reads sum into (local) sum
+  - ➡️ Thread 0 reads sum into (local) sum 读sum
   - ➡️ Thread 1 reads sum into (local) sum
-  - ➡️ Thread 0 increments (local) sum by *N*/*p*
+  - ➡️ Thread 0 increments (local) sum by *N*/*p* 递增和
   - ➡️ Thread 1 increments (local) sum by *N*/*p*
-  - ➡️ Thread 0 writes (local) sum to sum
-  - ➡️ Thread 1 writes (local) sum to sum
-- So long as the variables are initialised correctly, the race condition means you’ll have $\mathrm{sum}\leq N(N+1)/2$.
+  - ➡️ Thread 0 writes (local) sum to sum 写入和
+  - ➡️ Thread 1 writes (local) sum to sum 
+- So long as the variables are initialised correctly, the race condition means you’ll have $\mathrm{sum}\leq N(N+1)/2$. 只要变量被正确初始化
 
 
 
@@ -66,8 +67,8 @@ int main() {
 - Content
   - Race conditions
 - Expected Learning Outcomes
-  - The student can identify potential race conditions in an OpenMP parallel code
-  - The student can ameliorate race conditions in simple loops using alternative OpenMP constructions
+  - The student can identify potential race conditions in an OpenMP parallel code 在并行代码中识别 并行
+  - The student can ameliorate race conditions in simple loops using alternative OpenMP constructions 改善并行条件
 
 
 
