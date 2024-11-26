@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HPC Session 03 OpenMP (3/3)
+title: HPC Session 04 OpenMP (3/3)
 author: wichai
 date: 2024-11-20 11:00 +0000
 categories: [Study, Master]
