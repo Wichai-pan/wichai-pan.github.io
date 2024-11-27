@@ -248,28 +248,8 @@ MPI_Send(buffer2, 10, MPI_INT, right, 0, MPI_COMM_WORLD);
 ```
 
 - Does Variant A deadlock? *Yes!* `MPI_Recv` is always blocking. (always waiting)
-
 - Does Variant B deadlock? Not for only 10 integers (if not too many messages sent before). 若消息数量大 会死锁
-
-- Does Variant C deadlock? Is it correct? Is it fast? May we add additional operations before the first wait?  -- does not dead lock. fast ~~but may not correct~~  正确的 所指的buffer不一致
-
-  ### **为什么 Variant C 正确？**
-
-  #### **1. 不同缓冲区不会冲突**
-
-  - 在 `MPI_Irecv` 和 `MPI_Isend` 中，分别使用了两个独立的缓冲区：`buffer1` 和 `buffer2`。
-  - `MPI_Irecv` 的接收缓冲区 `buffer1` 不会与 `MPI_Isend` 的发送缓冲区 `buffer2` 发生冲突，因此这两个操作可以同时进行。
-
-  #### **2. `MPI_Wait` 确保操作完成**
-
-  - `MPI_Wait(&request1, &status)`：确保 `MPI_Irecv` 操作完成，表示接收的数据已安全存储到 `buffer1` 中。
-  - `MPI_Wait(&request2, &status)`：确保 `MPI_Isend` 操作完成，表示发送的数据已安全送出。
-  - 因为 `Wait` 是针对具体的 `request` 操作的，所以它们分别管理接收和发送，不会冲突。
-
-  #### **3. 不存在死锁**
-
-  - 非阻塞通信不会因为等待数据而卡住程序执行（不像 `MPI_Recv` 和 `MPI_Send` 可能相互等待）。
-  - 即使双方的进程（`left` 和 `right`）都在进行类似的非阻塞通信操作，因为这些操作独立完成并由 `Wait` 同步，整体逻辑上不会死锁。
+- Does Variant C deadlock? Is it correct? Is it fast? May we add additional operations before the first wait?  -- does not dead lock. fast but may not correct 
 
 
 
