@@ -8,7 +8,6 @@ tags: [DU, HPC]
 mermaid: true
 math: true
 pin: false
-
 ---
 
 
@@ -39,7 +38,7 @@ pin: false
 
 ## **Historic remarks on MPI**
 
-- MP- = Message Passing Interface
+- MPI = Message Passing Interface
 - Prescribes a set of functions, and there are several implementations (IBM, Intel, mpich, . . . )
 
  - Kicked-off 1992–94
@@ -80,16 +79,16 @@ mpirun -np 4 ./a.out
 
 - Use `mpicc` which is a wrapper around your compiler
 - Use `mpirun` to start application on all computers (SPMD) 
-- Exact usage of mpirun differs from machine to machine
+- Exact usage of `mpirun` differs from machine to machine
 
 
 
-- MPI functions become available through one header mpi.h
- - MPI applications are ran in parallel (mp- processes are called **ranks** to distinguish them from OS processes) 
- - MPI code requires explicit initialisation and shutdown
- - MPI functions always start with a prefix MPI_ and then one uppercase letter
- - MPI realises all return values via pointers
- - MPI’s initialisation is the first thing to do and also initialises argc and argv
+- MPI functions become available through one header `mpi.h` 使用头文件引入
+ - MPI applications are ran in parallel (mpi processes are called **ranks** to distinguish them from OS processes) 
+ - MPI code requires explicit显式 initialisation and shutdown
+ - MPI functions always start with a prefix `MPI_` and then one <u>uppercase letter</u>
+ - MPI realises all return values via pointers 通过指针实现所有返回值
+ - MPI’s initialisation is the first thing to do and also initialises `argc` and `argv`
 
 
 
@@ -111,8 +110,10 @@ return 0; }
 ```
 
 - See the name conventions and the call-by-pointer policy.
+  查看名称约定和按指针调用的策略
 - Compare to OpenMP which offers exactly these two operations as well.
 - Different to OpenMP, we will however need *ranks* all the time, as we have to specify senders and receivers. 
+  始终需要排名     必须指定发送者和接收者。 
 - For the time being, rank is a continuous numbering starting from 0.
 
 
@@ -153,7 +154,7 @@ int main(int argc, char *argv[]) {
 
 - Expected Learning Outcomes
   - The student knows the framework of an mpi application, can compile it and can run it
-  - The student can explain the terms rank and size
+  - The student can explain the terms **rank** and **size**
   - The student can identify MPI conventions at hands of given source codes
 
 
@@ -162,7 +163,7 @@ int main(int argc, char *argv[]) {
 
 ## **Peer-to-peer Message Passing**
 
-- The Message Passing of MPI is (largely) borne by two functions: 
+- The Message Passing of MPI is (largely) borne by two functions:  消息传递
   - `MPI_Send`
   - `MPI_Recv`
 
@@ -176,7 +177,8 @@ MPI_Recv(&data, count, MPI_INT, from, tag, MPI_COMM);
 ```
 
 - Most of the hard work of parallelising with MPI is managing the Sends and `Recv`s consistently. 
-- Today we’ll focus on the *blocking* versions of these calls.
+  大部分使用 MPI 进行并行化的辛苦工作是始终管理发送和 `Recv` 。
+- Today we’ll focus on the *blocking* versions of these calls. 调用的阻塞版本
 
 
 
@@ -191,15 +193,17 @@ int MPI_Send(
 )
 ```
 
-- `buffer` is a pointer to the piece of data you want to send away. 
+- `buffer` is a pointer to the piece of data you want to send away. 向您想发送的数据片段的指针
 - `count` is the numer of items
-- `datatype`...self-explaining
-- `dest` is the rank (integer) of the destination node
+- `datatype` ... self-explaining 自解释
+- `dest` is the rank (integer) of the destination node 目标节点的等级（整数）
 
-- `comm` is the so-called communicator (always `MPI_COMM_WORLD` for the time being) 
+- `comm` is the so-called communicator通讯者 (always `MPI_COMM_WORLD` for the time being)  
 - Result is an error code, i.e. 0 if successful (UNIX convention)
 
-> Blocking: MPI Send is called blocking as it terminates as soon as you can reuse the buffer, i.e. assign a new value to it, without an impact on MPI.
+> Blocking: `MPI_Send` is called blocking as it terminates as soon as you can reuse the buffer, i.e. assign a new value to it, without an impact on MPI.
+>
+> 被称为阻塞，因为一旦您可以重新使用缓冲区，即为其分配新值，而不会对 MPI 产生影响，它就会终止
 
 
 
@@ -220,6 +224,7 @@ int MPI_Recv(
 
 - `comm` is the so-called communicator (always `MPI_COMM_WORLD` for the time being) 
 - `status` is a pointer to an instance of `MPI_Status` and holds meta information
+  `status` 是指向 `MPI_Status` 实例的指针，并保存元信息
 - Result is an error code, i.e. 0 if successful (UNIX convention)
 
 > Blocking: `MPI_Recv` is called `blocking` as it terminates as soon as you can read the buffer, i.e. MPI has written the whole message into this variable.
@@ -231,15 +236,23 @@ int MPI_Recv(
 ## **Blocking communication**
 
 > Blocking: `MPI_Send` is called `blocking` as it terminates as soon as you can reuse the buffer, i.e. assign a new value to it, without an impact on MPI.
+>
+> 阻塞： `MPI_Send` 被称为 `blocking` ，因为一旦您可以重新使用缓冲区，即为其分配新值，而不会影响 MPI，它就会终止。
 
 > Blocking: `MPI_Recv` is called `blocking` as it terminates as soon as you can read the buffer, i.e. MPI has written the whole message into this variable.
+>
+> 阻塞： `MPI_Recv` 被称为 `blocking` ，因为一旦您可以读取缓冲区，即 MPI 已将整个消息写入此变量，它就会终止。
 
 - If a blocking operation returns, it does **not** mean that the corresponding message has been received.
+  如果阻塞操作返回，这并不意味着相应的消息已被接收
 - Blocking and asynchronous or synchronous execution have nothing to do with each other though a blocking receive never returns before the sender has sent out its data.
+  阻塞和异步或同步执行之间没有任何关系，尽管阻塞接收在发送方发送数据之前永远不会返回。
 - If a blocking send returns, the data must have been copied to the local network chip. 
 - The term blocking just refers to the safety of the local variable.
+  术语“blocking”只是指本地变量的安全性。
 
 - With blocking sends, you never have a guarantee that the data has been received, i.e. blocking sends are not *synchronised*.
+  使用阻塞发送，您永远无法保证数据已经接收，即阻塞发送不是同步的。
 
 
 
@@ -255,6 +268,8 @@ int MPI_Recv(
 ## **MPI Datatypes**
 
 > Datatypes: Note that the basic *C* datatypes are not allowed in MPI calls—MPI wraps (some of) these and you must use the MPI wrapper types in MPI calls.
+>
+> 数据类型：请注意，基本的 C 数据类型在 MPI 调用中是不允许的—MPI 封装了（部分）这些数据类型，您必须在 MPI 调用中使用 MPI 封装类型。
 
 ```cpp
 MPI_CHAR
@@ -294,7 +309,30 @@ if (rank==2) {
 ```
 
 - MPI messages *from one rank* never overtake. 
+
+  **为什么消息不会乱序？**
+
+  在 MPI 中，从同一个发送者到同一个接收者的消息**绝不会乱序**（消息传递的顺序保证），因为：
+
+  1. 消息严格按顺序到达
+     - 如果发送端按顺序调用 `MPI_Send`，接收端按顺序调用 `MPI_Recv`，接收到的值一定和发送顺序一致。
+  2. 单个通信路径的顺序性
+     - 对于来自同一个 `rank` 的消息，MPI 底层会确保消息的顺序性。
+
 - Why is this called SPMD?
+
+- SPMD 是并行编程的一种模型，全称为**单程序多数据**。它的特点是：
+
+  1. 单一程序
+     - 只有一份代码，但根据进程的 `rank` 值，程序的行为可能不同（如本代码中 `rank==0` 和 `rank==2` 的逻辑不同）。
+  2. 多数据并行
+     - 每个 MPI 进程有自己独立的地址空间和数据。不同的进程可以处理不同的数据或接收不同的消息。
+
+  在本代码中：
+
+  - 所有 MPI 进程运行相同的程序代码。
+  - 根据 `rank` 的值决定执行哪部分逻辑（条件分支 `if (rank == 0)` 和 `if (rank == 2)`）。
+  - 这正是 SPMD 模型的体现。
 
 
 
@@ -307,12 +345,12 @@ if (rank==2) {
   - MPI_Ssend — **S**ynchronous, blocking, send
   - MPI_Bsend — asynchronous, blocking, **B**uffered send 
   - MPI_Rsend — **R**eady blocking send
-
 - `MPI_Send` is buffered if the message fits in the MPI-managed buffer (like `MPI_Bsend`), otherwise synchronous (like `MPI_Ssend`)
-
+`MPI_Send` 如果消息适合于 MPI 管理的缓冲区，则进行缓冲，否则同步进行（如 `MPI_Ssend` ）
 - `MPI_Rsend` requires the recipient to have already called `MPI_Recv`
 
 > Usage: MPI Recv is always synchronous—it waits until the buffer is filled up with the complete received message.
+> MPI Recv 始终是同步的-它会等待直到缓冲区被完整接收的消息填满。
 
 
 
@@ -401,6 +439,8 @@ MPI_Recv(&w,1,MPI_INT,p0,0,MPI_COMM_WORLD,&status);
 
 What is the value of `u,v,w` on rank `p1`?
 
+​	dead lock or error 等不到tag = 1
+
 
 
 ###  **Example 2/3**
@@ -429,6 +469,8 @@ MPI_Recv(&w,1,MPI_INT,p0,0,MPI_COMM_WORLD,&status);
 
 What is the value of `u,v,w` on rank `p1`?
 
+​	 1 3 2
+
 
 
 ### **Example 3/3**
@@ -456,6 +498,16 @@ MPI_Recv(&w,1,MPI_INT,p0,2,MPI_COMM_WORLD,&status);
 ```
 
 What is the value of `u,v,w` on rank `p1`?
+
+​	3 2 1
+
+
+
+|    **示例**     |          **发送顺序（`p0`）**           |      **接收顺序（`p1`）**       |   **结果（`u,v,w`）**    |
+| :-------------: | :-------------------------------------: | :-----------------------------: | :----------------------: |
+| **Example 1/3** |     `a=1, b=2 (Tag=0), c=3 (Tag=1)`     |      全部接收 `Tag=0` 消息      | 未定义（缺少第三条消息） |
+| **Example 2/3** | `a=1 (Tag=0), b=2 (Tag=0), c=3 (Tag=1)` | 接收顺序：`Tag=0, Tag=1, Tag=0` |     `u=1, v=3, w=2`      |
+| **Example 3/3** | `a=1 (Tag=2), b=2 (Tag=1), c=3 (Tag=0)` | 接收顺序：`Tag=0, Tag=1, Tag=2` |     `u=3, v=2, w=1`      |
 
 
 
