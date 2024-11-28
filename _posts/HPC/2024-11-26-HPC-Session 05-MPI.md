@@ -14,6 +14,14 @@ pin: false
 
 # MPI—basics and blocking P2P communication
 
+> MPI 是进程 (process) 级并行，process 间内存不共享，与线程 (thread) 级并行不同
+
+https://mpitutorial.com/tutorials/
+
+https://scc.ustc.edu.cn/_upload/article/files/e0/98/a9f0c4964abdb3281233d7943f9e/W020121113517561886972.pdf
+
+https://blog.zcy.moe/blog/mpi-reference/
+
 ## **Starting point**
 
 - Shared memory programming:
