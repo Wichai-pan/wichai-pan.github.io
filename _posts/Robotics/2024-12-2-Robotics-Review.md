@@ -157,4 +157,8 @@ eg.2. ？？
 
 eg.3.
 
+![image-20241202211848479](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20241202211848479.png)
+
+
+
 eg.4.

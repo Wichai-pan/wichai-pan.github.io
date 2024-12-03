@@ -112,11 +112,19 @@ $$
 \begin{aligned}&\dot{x}= r \frac{\omega_{r}+\omega_{l}}{2}\mathrm{cos}\theta\\&\dot{y}=r \frac{\omega_{r}+\omega_{l}}{2}\mathrm{sin}\theta\\&\dot{\theta}=r \frac{\omega_{r}-\omega_{l}}{l}\end{aligned}
 $$
 
-- Comparing the equations for unicycle and for differential drive yields the transformation
+- Comparing the equations for unicycle and for differential drive yields the transformation  $v,\omega$ 矩阵化表达
   $$
   \begin{bmatrix}v\\\omega\end{bmatrix}=\begin{bmatrix}r/_2&r/_2\\r/_l&-^r/_l\end{bmatrix}\begin{bmatrix}\omega_r\\\omega_l\end{bmatrix}
   $$
   
+
+
+
+
+
+
+
+
 
 ## Localisation
 
