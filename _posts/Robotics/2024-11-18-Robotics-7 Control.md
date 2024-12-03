@@ -327,9 +327,11 @@ $$
 - Any system that can be represented in this shape is LTI:
 
 $$
-\dot{x}(t)=Ax(t)+Bu(t)\\\dot{y}(t)=Cx(t)+Du(t)
+\dot{x}(t)=Ax(t)+Bu(t)
 $$
-
+$$
+\dot{y}(t)=Cx(t)+Du(t)
+$$
 ​	Where 𝐴, 𝐵, 𝐶, 𝐷 are constant matrices/vectors.
 
 - Linearity:
