@@ -121,7 +121,7 @@ eg.<img src="https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20
 
 **$a_{i-1}$**：沿$x_{i-1}$轴，从$z_{i-1}$到$z_i$的距离。(与x垂直)
 
-**$d_i$**：沿$x_i$轴，从$x_{i-1}$到$x_i$的距离。
+**$d_i$**：沿$z_i$轴，从$x_{i-1}$到$x_i$的距离。
 
 **$\theta_i$**：绕$z_i$轴，从$x_{i-1}$到$x_i$的夹角 (与z垂直)
 
@@ -162,3 +162,128 @@ eg.3.
 
 
 eg.4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 模拟题
+
+1.
+
+D = 10cm = 100mm
+
+d = 4cm = 40mm
+
+P = 5MPa
+
+1) $A_1 = \pi \times (D/2)^2 = 7850 mm^2$ 
+   $F_{push} = P \times A_1 = 39250 N$
+2) $A_2 = \pi \times(d/2)^2 = 6593mm^2$
+   $F_{pull}  = P\times(A_1-A_2) = 32970N$
+
+
+
+
+
+2. 1. DOF = 8
+   2. rongyu = 8 - 6 = 2
+
+
+
+3. ~~0~~ $90^{\circ}$ 绕轴旋转
+
+4. ![image-20241205214126483](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20241205214126483.png)
+   
+   
+
+```pyhthon
+import numpy as np
+
+def dh_transform_matrix(a, alpha, theta, d):
+    # Convert degrees to radians for trigonometric calculations
+    alpha_rad = np.radians(alpha)
+    theta_rad = np.radians(theta)
+    
+    # Construct the transformation matrix
+    T = np.array([
+        [np.cos(theta_rad), -np.sin(theta_rad) * np.cos(alpha_rad), np.sin(theta_rad) * np.sin(alpha_rad), a * np.cos(theta_rad)],
+        [np.sin(theta_rad), np.cos(theta_rad) * np.cos(alpha_rad), -np.cos(theta_rad) * np.sin(alpha_rad), a * np.sin(theta_rad)],
+        [0, np.sin(alpha_rad), np.cos(alpha_rad), d],
+        [0, 0, 0, 1]
+    ])
+    
+    return T
+
+# Given parameters
+a = 0.5
+alpha = 90
+theta = 30
+d = 0.2
+
+# Calculate the matrix
+transformation_matrix = dh_transform_matrix(a, alpha, theta, d)
+
+transformation_matrix
+
+```
+
+```python
+from sympy import symbols, cos, sin, Matrix, pi, sqrt
+
+def dh_transform_matrix_symbolic(a, alpha, theta, d):
+    # Convert degrees to radians
+    alpha_rad = alpha * pi / 180
+    theta_rad = theta * pi / 180
+
+    # Construct the symbolic transformation matrix
+    T = Matrix([
+        [cos(theta_rad), -sin(theta_rad) * cos(alpha_rad), sin(theta_rad) * sin(alpha_rad), a * cos(theta_rad)],
+        [sin(theta_rad), cos(theta_rad) * cos(alpha_rad), -cos(theta_rad) * sin(alpha_rad), a * sin(theta_rad)],
+        [0, sin(alpha_rad), cos(alpha_rad), d],
+        [0, 0, 0, 1]
+    ])
+    return T
+
+# Given parameters
+a = 0.5
+alpha = 90  # degrees
+theta = 30  # degrees
+d = 0.2
+
+# Compute the symbolic transformation matrix
+transformation_matrix_symbolic = dh_transform_matrix_symbolic(a, alpha, theta, d)
+
+# Display the matrix
+transformation_matrix_symbolic
+
+```
+
+
+
+
+
+
+
+5. ? 障碍物规避 力优化
+6. $v = \sqrt 2 \  m/s$
+   $\omega = 0  \ rad /s$
+7. ![image-20241205172233322](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20241205172233322.png)
+
+![image-20241205172245692](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20241205172245692.png)
+
+![image-20241206135338227](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20241206135338227.png)
+
+![image-20241206135357660](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20241206135357660.png)
+
+![image-20241206135406474](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20241206135406474.png)
+
+![image-20241206135418764](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20241206135418764.png)
