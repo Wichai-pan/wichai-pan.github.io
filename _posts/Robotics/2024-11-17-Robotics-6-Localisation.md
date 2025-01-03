@@ -206,12 +206,12 @@ $$
 
 The robot pose 
 $$
-  \mathbf{s}_k=\begin{bmatrix}S_x&&S_y&&S_\theta\end{bmatrix}^T
+\mathbf{s}_k=\begin{bmatrix}s_x&s_y&s_\theta\end{bmatrix}^T
 $$
 
 The robot inputs
 $$
-  \mathbf{u}_k=\begin{bmatrix}v&\omega\end{bmatrix}^T
+\mathbf{u}_k=\begin{bmatrix}v&\omega\end{bmatrix}^T
 $$
 
 If $\Delta t$ is the sampling time , then it is possible to compute the incremential linear and angular Displacement, $\Delta d$ and $\Delta \theta$, as follows:
@@ -223,7 +223,7 @@ To compute the pose of the robot at any given time step, the kinematic model mus
 
 This approximation follows the **Markov assumption** where the current robot pose depends only on the previous pose and the input velocities
 $$
-  \begin{bmatrix}S_{x,k}\\S_{y,k}\\S_{\theta,k}\end{bmatrix}=\begin{bmatrix}S_{x,k-1}\\S_{y,k-1}\\S_{\theta,k-1}\end{bmatrix}+\begin{bmatrix}\Delta d\cos\bigl(s_{\theta,k-1}\bigr)\\\Delta d\sin\bigl(s_{\theta,k-1}\bigr)\\\Delta\theta\end{bmatrix}
+\begin{bmatrix}S_{x,k}\\S_{y,k}\\S_{\theta,k}\end{bmatrix}=\begin{bmatrix}S_{x,k-1}\\S_{y,k-1}\\S_{\theta,k-1}\end{bmatrix}+\begin{bmatrix}\Delta d\cos\bigl(s_{\theta,k-1}\bigr)\\\Delta d\sin\bigl(s_{\theta,k-1}\bigr)\\\Delta\theta\end{bmatrix}=\begin{bmatrix}S_{x,k-1}\\S_{y,k-1}\\S_{\theta,k-1}\end{bmatrix}+\begin{bmatrix}v\Delta t\cos\bigl(s_{\theta,k-1}\bigr)\\v\Delta t\sin\bigl(s_{\theta,k-1}\bigr)\\ \omega \Delta t\end{bmatrix}
 $$
 
 The pose estimation of a mobile robot is always associated with some uncertainty with respect to its state parameters.
@@ -267,7 +267,7 @@ where $q_k$ is an additive Gaussian noise such that $\mathbf{q}_k{\sim}\mathcal{
 
 The function $\mathbf{h}(\mathbf{s}_{k-1},\mathbf{u}_k)$ is generally nonlinear, and in the case of a differential-drive robot, this fucntion is defined as:
 $$
-  \mathbf{h}(\mathbf{s}_{k-1},\mathbf{u}_{k})=\begin{bmatrix}s_{x,k-1}+\Delta t\cdot v_k.\cos\bigl(s_{\theta,k-1}\bigr)\\s_{y,k-1}+\Delta t\cdot v_k.\sin\bigl(s_{\theta,k-1}\bigr)\\s_{\theta,k-1}+\Delta t\cdot\omega_k\end{bmatrix}
+\mathbf{h}(\mathbf{s}_{k-1},\mathbf{u}_{k})=\begin{bmatrix}s_{x,k-1}+\Delta t\cdot v_k.\cos\bigl(s_{\theta,k-1}\bigr)\\s_{y,k-1}+\Delta t\cdot v_k.\sin\bigl(s_{\theta,k-1}\bigr)\\s_{\theta,k-1}+\Delta t\cdot\omega_k\end{bmatrix}
 $$
 
 Assume that the robot pose at time step $k - 1$ is given by a Gaussian distribution such that $\mathbf{s}_{k-1}{\sim}\mathcal{N}(\boldsymbol{\mu}_{k-1},\boldsymbol{\Sigma}_{k-1})$
