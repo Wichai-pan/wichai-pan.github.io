@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GPU 01 Overview 
+title: GPU 01 Excersie1
 author: wichai
 date: 2025-01-13 17:00 +0000 
 categories: [Study, Master]
