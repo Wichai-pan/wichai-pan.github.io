@@ -32,8 +32,9 @@ Your code should be in a single C file named part1.c. Your code must compile and
 
 Report
 
-Explain and justify your parallelization strategy, using arguments based in theory covered in the course and your scaling results. Investigate the strong scaling of your implementation. Report scaling results using transferable metrics in your report. Additional questions you may wish to consider in your report are listed below. Your report should be no more than one (1) page (plus images), in a file named part1.pdf.
+Explain and justify your parallelization strategy, using arguments based in theory covered in the course and your scaling results. Investigate the **strong scaling** of your implementation. Report **scaling** results using transferable metrics in your report. Additional questions you may wish to consider in your report are listed below. Your report should be no more than one (1) page (plus images), in a file named part1.pdf.
 Questions to consider: 
+
 1. What options for parallelisation are available? 
 2. Why are some more suitable than others? 
 3. What difficulties arise in the parallelisation? Where are the necessary synchronisation points? 
@@ -61,7 +62,7 @@ Your code should be a single C file called part2.c. Your code should compile and
 
 Report
 
-Explain and justify your parallelization strategy, using arguments based in theory covered in the course and your scaling results. Investigate the weak scaling of your implementation.
+Explain and justify your parallelization strategy, using arguments based in theory covered in the course and your scaling results. Investigate the **weak scaling** of your implementation.
 Report scaling results using transferable metrics in your report. Additional questions you may wish to consider in your report are listed below. Your report should be no more than one (1) page (plus images), in a file named part2.pdf.
 
 Questions to consider: 
