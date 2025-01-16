@@ -1,10 +1,14 @@
 ---
 layout: post
-title: GPU 01 Overview 
+title: GPU 01 Overview
 author: wichai
-date: 2025-01-13 16:00 +0000 
-categories: [Study, Master]
-tags: [DU, GPU]
+date: 2025-01-13 16:00 +0000
+categories:
+  - Study
+  - Master
+tags:
+  - DU
+  - GPU
 mermaid: true
 math: true
 pin: false
@@ -300,3 +304,4 @@ Using all eight SIMD lanes
 ![image-20250113170001398](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20250113170001398.png)
 
 *Runs at ADD peak.*
+[[2025-1-13-1excercise]]
