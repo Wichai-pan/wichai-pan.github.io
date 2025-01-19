@@ -254,7 +254,7 @@ $$S = \frac{1}{4 \pi \alpha'} \int d^2 \sigma \sqrt{|h|} h^{\alpha \beta} g_{\mu
 
 - Problems are how to:
   - Model and compute P(U|K).
-  - Compute and optimize E[L](D).
+  - Compute and optimize `E[L](D)`.
 
 - Often useful to separate data X: P(U|X,K).
   - Use Bayes’ theorem: P(U|X,K) ∝ P(X|U,K)P(U|K).
