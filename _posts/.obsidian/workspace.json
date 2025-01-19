@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPU/2025-02-03-PO-7.md",
+                "file": "Coding Language/2025-02-03-R.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-03-PO-7"
+              "title": "2025-02-03-R"
             }
           }
         ]
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPU/2025-02-03-PO-7.md",
+                "file": "Coding Language/2025-02-03-R.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-02-03-PO-7 的大纲"
+              "title": "2025-02-03-R 的大纲"
             }
           },
           {
@@ -234,9 +234,12 @@
   },
   "active": "2194da3dad0ecd9f",
   "lastOpenFiles": [
-    "GPU/2025-02-03-PO-6.md",
-    "GPU/2025-02-03-PO-7.md",
+    "Coding Language/2025-02-03-R~.md",
     "GPU/2025-02-03-exercise 7.md",
+    "Coding Language/2025-02-03-R.md",
+    "Coding Language",
+    "GPU/2025-02-03-PO-7.md",
+    "GPU/2025-02-03-PO-6.md",
     "GPU/2025-02-03-exercise 6.md",
     "GPU/2025-01-30-PO-Lecture5-Performance -Measurements.md",
     "CV/2025-02-03-CV-workshop5.md",
@@ -258,8 +261,6 @@
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-02-04-UL-3.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-02-04-.md",
-    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
-    "2025-02-04-.md",
     "Miscellaneous/浏览器插件和油猴介绍.pdf",
     "Miscellaneous/大学生 搜索技巧.pdf",
     "Miscellaneous/常用网站推荐.pdf",
@@ -270,7 +271,6 @@
     "MATH/Math Deep.pdf",
     "MATH/Statistics",
     "未命名.canvas",
-    "MATH",
     "大胆承认：中美对账的底气就是社会主义制度【学院时评】PT2M10.021S.webp"
   ]
 }
