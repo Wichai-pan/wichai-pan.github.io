@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7d33272ade69de32",
+        "id": "75b6cdd8bbb085de",
         "type": "tabs",
         "children": [
           {
-            "id": "31a7102a3ebc3885",
+            "id": "bb7909b02118af8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-01-17-UP-L1"
             }
           }
         ]
@@ -48,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Q",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,12 +73,12 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f3d174e5c05d4e55",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CV/2025-01-17-UP-L1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "2025-01-17-UP-L1 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CV/2025-01-17-UP-L1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "2025-01-17-UP-L1 的出链列表"
             }
           },
           {
@@ -133,9 +139,25 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "CV/2025-01-17-UP-L1.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2025-01-17-UP-L1 的大纲"
+            }
+          },
+          {
+            "id": "c6aab843a4d25b83",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ]
@@ -156,21 +178,25 @@
       "workspaces:管理工作区布局": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "templater-obsidian:Templater": false,
-      "publish:发布更改": false,
-      "random-note:开始漫游笔记": false,
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "31a7102a3ebc3885",
+  "active": "bb7909b02118af8d",
   "lastOpenFiles": [
+    "2025-01-17-UP-L1.md",
+    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
+    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/Untitled.md",
+    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/Untitled~.md",
+    "Excalidraw/Drawing 2025-01-16 21.06.39.excalidraw.md",
+    "CV/2025-1-13-CV-1.md",
+    "CV/2025-1-13-CV-2~.md",
+    "CV/2025-1-13-CV-2.md",
+    "CV/Untitled.md",
+    "Miscellaneous/2024-12-13-Latex-Greek_alpha.md",
     "HPC/2024-11-15-HPC-Session 01.md",
     "template/post_note.md",
     "temp.md",
     "2025-01-16.md",
-    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/Untitled.md",
-    "CV/2025-1-13-CV-1.md",
-    "Excalidraw/Drawing 2025-01-16 21.06.39.excalidraw.md",
     "Excalidraw",
     "CV/2025-1-13-CV-1~.md",
     "GPU/2025-1-13-1excercise.md",
