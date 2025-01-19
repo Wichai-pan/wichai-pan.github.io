@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
+                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-14-ASML-Foundation"
+              "title": "2025-01-17-UP-L1"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
+                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-01-14-ASML-Foundation 的反向链接列表"
+              "title": "2025-01-17-UP-L1 的反向链接列表"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
+                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-01-14-ASML-Foundation 的出链列表"
+              "title": "2025-01-17-UP-L1 的出链列表"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md"
+                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md"
               },
               "icon": "lucide-list",
-              "title": "2025-01-14-ASML-Foundation 的大纲"
+              "title": "2025-01-17-UP-L1 的大纲"
             }
           },
           {
@@ -183,8 +183,9 @@
   },
   "active": "bb7909b02118af8d",
   "lastOpenFiles": [
-    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
+    "Excalidraw/Drawing 2025-01-16 21.06.39.excalidraw.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
+    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
     "2025-01-14-ASML-Foundation.md",
     "CV/2025-1-13-CV-2.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/Untitled.md",
@@ -194,7 +195,6 @@
     "GPU/2025-1-15-excercise 2 3.md",
     "2025-01-17-UP-L1.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/Untitled~.md",
-    "Excalidraw/Drawing 2025-01-16 21.06.39.excalidraw.md",
     "CV/2025-1-13-CV-2~.md",
     "CV/Untitled.md",
     "Miscellaneous/2024-12-13-Latex-Greek_alpha.md",
