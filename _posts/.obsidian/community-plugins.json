@@ -1,5 +1,8 @@
 [
   "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-tasks-plugin",
+  "obsidian-kanban",
+  "media-extended"
 ]

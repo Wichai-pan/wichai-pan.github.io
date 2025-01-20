@@ -26,8 +26,6 @@ pin: false
 
 I would like this code to run faster: how do I know *what* *to do?*
 
-
-
 *Performance models & measurements*
 
 *We can treat the computer as an experimental system:*
@@ -83,13 +81,13 @@ for (int i = 0; i < N; i++)
 	a[i] = a[i] + b[i];
 ```
 
-*User view*
+1. *User view*
 
 *Work is N flops (additions)*
 
 
 
-*Processor view*
+2. *Processor view*
 
 *Work is 6N instructions*
 
@@ -103,7 +101,13 @@ INCREMENT i
 GOTO .top IF i < N
 ```
 
+**Mismatch**
+- Processor designers: all instructions are “work”.  
+- Code developers: instructions I write are “work”.
 
+## Hardware for programmers
+
+![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250120163511.png)
 
 
 
@@ -119,11 +123,54 @@ GOTO .top IF i < N
 
 *▶* *Bandwidth determined by load/store rate and HW limits*
 
+## Example: adding two arrays
+
+```c
+for (int i = 0; i < N; i++)
+    a[i] = a[i] + b[i];
+```
+
+Data transfers (double precision floats):
+```c
+LOAD r1 = a[i]  /* 8 bytes */
+LOAD r2 = b[i]  /* 8 bytes */
+STORE a[i] = r1  /* 8 bytes */
+```
+24 bytes of data movement per loop iteration.
+
+## Understanding the performance of some code
+
+### Core question
+
+What is the resource bottleneck?
+- Instruction execution?
+- Data transfer?
 
 
-The “Princeton” architecture
+### Core question
+**What is the resource bottleneck?**
+- Instruction execution?
+- Data transfer?
+
+## The “Princeton” architecture
 
 ![image-20250113163116187](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20250113163116187.png)
+
+
+## The “Princeton architecture”
+
+- Used by programming languages
+- Sequential model
+- In-order execution
+- Simple
+- Realistic for 1945
+
+## What has changed in the last 77 years?
+
+![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250120163914.png)
+THE ONE FEATURE: both instructions and data reside in memory. But CPUs are much more complicated today!
+
+
 
 ![image-20250113163607249](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20250113163607249.png)
 
@@ -132,26 +179,43 @@ The “Princeton” architecture
 
 
 ## Definitions
-Cycle unit of execution of CPU
+**Cycle** unit of execution of CPU
 
-Frequency # cycles per second (measured in Hz)
+**Frequency** # cycles per second (measured in Hz)
 
-Latency # cycles to execute given instruction
+**Latency** # cycles to execute given instruction
 
-Throughput # instructions that can run simultaneously
+**Throughput** # instructions that can run simultaneously
 
+Problem
+
+Most instructions have a latency of more than one clock cycle. 
+
+What happens if:
+- all instruction have latency 1?  
+  *No “wasted” cycles.*
+- ADD has latency 3?  
+  *Two “wasted” cycles before `STORE`.*
+
+```
+LOAD r1 = a[i]  
+LOAD r2 = b[i]  
+ADD r1 = r1 + r2  
+STORE a[i] = r1  
+INCREMENT i  
+```
+
+In pictures
+![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250120164421.png)
 
 
 ## Strategies for faster chips
 
 1. Increase clock speed (more cycles per second)
 2. Parallelism
-▶ data-level parallelism
-▶ instruction-level parallelism
-3. Specialisation (optimised hardware units
-
-
-
+	▶ data-level parallelism
+	▶ instruction-level parallelism
+1. Specialisation (optimised hardware units
 
 
 ## Increasing clock speed
@@ -160,6 +224,7 @@ Throughput # instructions that can run simultaneously
 
 Easy for the programmer
 Architecture is unchanged, everything just happens faster!
+
 Limitations
 ▶ Limited by physical impossibility to cool chip.
 ▶ Clock speeds have been approximately constant for 10 years
@@ -176,10 +241,7 @@ Problems
 ▶ Mostly pushes problem onto programmer
 
 
-
-
-
-Instruction-level parallelism: pipelining
+## Instruction-level parallelism: pipelining
 Split each instruction into
 ▶ fetch
 ▶ decode
@@ -190,14 +252,11 @@ and use a pipeline.
 
 
 
-
+## Instruction-level parallelism: superscalar
 
 ![image-20250113164353561](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/image-20250113164353561.png)
 
-*Instructions with no dependencies can be issued* *simultaneously*
-
-
-
+Instructions with no dependencies can be issued simultaneously
 
 
 ## Instruction-level parallelism: out-of-order
