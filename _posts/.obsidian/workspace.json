@@ -8,39 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c04394be114faa7",
+            "id": "b1511a20b858a4f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
+                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-23-UL-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-14-ASML-Foundation"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a842da64931389f0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "94a0e462cb95fcd3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MATH/Math Deep.pdf",
-                "page": 20,
-                "left": -22,
-                "top": 35,
-                "zoom": 0.6691176470588236
-              },
-              "icon": "lucide-file-text",
-              "title": "Math Deep"
+              "title": "2025-01-23-UL-2"
             }
           }
         ]
@@ -117,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f3d174e5c05d4e55",
@@ -178,10 +157,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPU/2025-1-13-1excercise.md"
+                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-23-UL-2.md"
               },
               "icon": "lucide-list",
-              "title": "2025-1-13-1excercise 的大纲"
+              "title": "2025-01-23-UL-2 的大纲"
             }
           },
           {
@@ -203,17 +182,19 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-23-UL-2.md"
+              },
               "icon": "lucide-info",
-              "title": "笔记属性"
+              "title": "2025-01-23-UL-2的笔记属性"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
+    "width": 240.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -235,12 +216,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8c04394be114faa7",
+  "active": "b1511a20b858a4f3",
   "lastOpenFiles": [
+    "PLAN.md",
+    "2025-01-23-UL-2.md",
+    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-23-UL-2.md",
+    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
     "GPU/2025-01-22-excercise-4.md",
     "Document EM Notes.pdf",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
-    "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
     "MATH/Math Deep.pdf",
     "MATH/Statistics/test.md",
     "MATH/Statistics",
@@ -248,7 +232,6 @@
     "MATH",
     "CV/2025-01-20-CV-4.md",
     "Excalidraw/Drawing 2025-01-21 02.03.58.excalidraw.md",
-    "PLAN.md",
     "CV/2025-1-13-CV-2.md",
     "Excalidraw/Drawing 2025-01-16 21.06.39.excalidraw.md",
     "Excalidraw/Drawing 2025-01-21 02.02.13.excalidraw.md",
@@ -267,7 +250,6 @@
     "GPU/2025-1-13-1excercise.md",
     "HPC/2024-11-15-HPC-Session 01.md",
     "GPU/2025-01-19-PO-Lecture-2-Memory-Hierarchy.md",
-    "GPU/2025-1-15-excercise 2 3.md",
     "Excalidraw",
     "template"
   ]

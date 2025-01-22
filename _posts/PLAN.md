@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## TODO
 
-- [ ] CV2作业🔺
 - [ ] 回顾CV1
 - [ ] 回顾CV2
 - [ ] 回顾CV3
@@ -20,11 +19,14 @@ kanban-plugin: board
 
 ## In Progress
 
+- [ ] 贝叶斯笔记
+- [ ] UL2 note
 
 
 ## Done
 
 **完成**
+- [x] CV2作业 🔺 ✅ 2025-01-22
 
 
 ***
