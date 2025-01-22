@@ -25,3 +25,6 @@ package-lock.json
 # Misc
 _sass/dist
 assets/js/dist
+
+# _posts/.obsidian/plugins/copilot
+# _posts/.obsidian/plugins/smart-connections

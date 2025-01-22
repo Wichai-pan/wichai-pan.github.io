@@ -1,4 +1,5 @@
 {
   "showLineNumber": true,
-  "autoPairMarkdown": true
+  "autoPairMarkdown": true,
+  "showRibbon": true
 }

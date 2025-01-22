@@ -34,5 +34,13 @@
       ],
       "key": "O"
     }
+  ],
+  "media-extended:take-timestamp": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "3"
+    }
   ]
 }
