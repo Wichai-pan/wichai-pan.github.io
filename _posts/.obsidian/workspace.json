@@ -6,7 +6,6 @@
       {
         "id": "70d0a68013007c40",
         "type": "tabs",
-        "dimension": 45.69021386908619,
         "children": [
           {
             "id": "b1511a20b858a4f3",
@@ -38,33 +37,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "b5a81b4018f7a214",
-        "type": "tabs",
-        "dimension": 54.30978613091381,
-        "children": [
-          {
-            "id": "fda394adfbf9e87d",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "PLAN.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "PLAN"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -199,10 +171,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PLAN.md"
+                "file": "MATH/Statistics/2025-01-24-Bayes-Theorem.md"
               },
               "icon": "lucide-list",
-              "title": "PLAN 的大纲"
+              "title": "2025-01-24-Bayes-Theorem 的大纲"
             }
           },
           {
@@ -225,10 +197,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "PLAN.md"
+                "file": "MATH/Statistics/2025-01-24-Bayes-Theorem.md"
               },
               "icon": "lucide-info",
-              "title": "PLAN的笔记属性"
+              "title": "2025-01-24-Bayes-Theorem的笔记属性"
             }
           }
         ],
@@ -258,10 +230,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fda394adfbf9e87d",
+  "active": "aeb63198cbfe7735",
   "lastOpenFiles": [
-    "MATH/Statistics/2025-01-24-Bayes-Theorem.md",
     "PLAN.md",
+    "MATH/Statistics/2025-01-24-Bayes-Theorem.md",
     "2025-01-25-conditional-probability.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-23-UL-2.md",
     "2025-01-23-UL-2.md",

@@ -54,7 +54,6 @@ $$
 
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250122224724.png)
 
-
 - [16:44](https://www.youtube.com/watch?v=Pu675cHJ7bg&t=1005#t=16:44.83) 患病例子
 - 先验概率 后验概率？
 - 两次检测的概率 
@@ -62,8 +61,7 @@ $$
 
 - 迭代运算 <- 核心精神 准确的判断一个假设是否正确
 
-
-
 # 另一个讲解
 
 [Bayes theorem, the geometry of changing beliefs - YouTube](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+基本一样的另一个例子 [一文搞懂贝叶斯定理（原理篇） - Blogs - 廖雪峰的官方网站](https://liaoxuefeng.com/blogs/all/2023-08-27-bayes-explain/index.html)

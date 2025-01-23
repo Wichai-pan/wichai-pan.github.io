@@ -15,6 +15,7 @@ kanban-plugin: board
 - [ ] 回顾OP2
 - [ ] 回顾OP3
 - [ ] ASML作业
+- [ ] 回顾UL2
 
 
 ## In Progress
