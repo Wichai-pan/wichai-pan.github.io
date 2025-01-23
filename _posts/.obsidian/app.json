@@ -1,5 +1,6 @@
 {
   "showLineNumber": true,
   "autoPairMarkdown": true,
-  "showRibbon": true
+  "showRibbon": true,
+  "alwaysUpdateLinks": true
 }

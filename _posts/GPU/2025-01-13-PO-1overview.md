@@ -363,7 +363,7 @@ Using all eight SIMD lanes
 
 
 
-[[2025-1-13-1excercise]]
+[[2025-01-13-1excercise]]
 [[2025-01-19-PO-Lecture-2-Memory-Hierarchy]]
 # Exercise 1: Benchmarking Sum Reduction
 

@@ -24,7 +24,6 @@ pin: false
 
 Example:
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250122222551.png)
-![Uploading file...dgpe5]()
 
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250122222701.png)
 
