@@ -19,12 +19,14 @@ kanban-plugin: board
 
 ## In Progress
 
-- [ ] 回顾UL1
+- [ ] CV ex 3
+- [ ] CV ex4
 
 
 ## Done
 
 **完成**
+- [x] 回顾UL1
 - [x] 贝叶斯笔记 ✅ 2025-01-23
 - [x] 宝宝summative ✅ 2025-01-26
 - [x] UL2 note ✅ 2025-01-22
