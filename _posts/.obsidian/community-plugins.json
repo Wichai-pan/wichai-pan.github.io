@@ -1,17 +1,15 @@
 [
-  "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-kanban",
   "media-extended",
-  "obsidian-tasks-plugin",
   "obsidian-linter",
   "recent-files-obsidian",
   "pdf-plus",
   "obsidian-mind-map",
   "excalibrain",
-  "dataview",
+  "obsidian-auto-link-title",
+  "obsidian-kanban",
   "immersive-translate",
   "homepage",
-  "obsidian-auto-link-title"
+  "translate"
 ]
