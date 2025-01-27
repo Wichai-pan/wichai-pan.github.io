@@ -54,8 +54,6 @@ You are asked to create greyscale masks for each slice of the given CT scans. Ea
 - Please refer to the bracket highlighting the segments of a leg.
 - Only the red, green and yellow segments on the left and right (this model is a segmentation from top to bottom of the leg - we will only look at the middle of the leg).
 
-I'm unable to process images directly. If you need assistance with the content from an image, please describe it or provide the text, and I'll be happy to help!
-
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250127151054.png)
 
 # Task 2
@@ -70,11 +68,11 @@ Dataset of CT scans will be made available by Tuesday 28th January 2025 (next we
 
 # Marking scheme
 
-| Task                | comment                                                                                                                                                                                                                                                          | %  |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
-| Descriptions        | A general introduction to your solutions must be provided (5%), as well as a detailed description of how you solve each of the following tasks (10%).                                                                                                           | 15 |
-| Task 1              | Hint: CT scan slices are greyscale images, segmentation can be implemented using one of the taught methods/algorithms. For the normalisation and generation of probability maps needs to enforce each map to sum up to one. <br> Marking: 10% will be assigned to a fully working method, 5% only if the method partially works. | 15 |
-| Task 2              | Hint: one can think of aligning CT slices and related segmented maps. Combining adjacent slices means checking the likelihood of calcium deposit and building an estimate of the volume. <br> Marking: the implementation must clearly demonstrate volume estimates are correctly built. Full 15% to a complete solution, if the solution works in part, then 10%.          | 15 |
+| Task         | comment                                                                                                                                                                                                                                                                                                                                                                        | %   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
+| Descriptions | A general introduction to your solutions must be provided (5%), <br><br>as well as a detailed description of how you solve each of the following tasks (10%).                                                                                                                                                                                                                  | 15  |
+| Task 1       | Hint: CT scan slices are greyscale images, segmentation can <br>be implemented using one of the taught methods/algorithms. <br><br>For the normalisation and generation of probability maps needs <br>to enforce each map to sum up to one. <br><br>Marking: 10% will be assigned to a fully working method, 5% only if the method partially works.                            | 15  |
+| Task 2       | Hint: one can think of aligning CT slices and related segmented maps. <br>Combining adjacent slices means checking the likelihood of calcium deposit and building an estimate of the volume. <br> <br>Marking: the implementation must clearly demonstrate volume estimates are correctly built. <br>Full 15% to a complete solution, if the solution works in part, then 10%. | 15  |
 
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250127151131.png)
 
