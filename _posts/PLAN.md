@@ -22,12 +22,12 @@ kanban-plugin: board
 - [ ] 回顾CV2
 - [ ] CV ex 3
 - [ ] CV ex4
-- [ ] CV5 note
 
 
 ## Done
 
 **完成**
+- [x] CV5 note ✅ 2025-01-27
 - [x] 回顾UL1
 - [x] CV4笔记
 - [x] CV3笔记
