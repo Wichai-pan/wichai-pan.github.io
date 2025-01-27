@@ -35,6 +35,8 @@ $$
 y = Ax = \sum _{j=1}^{n_{col}} A_{ij} * x_j
 $$
 
+![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250127171309.png)
+
 ## Performance measurements
 
 **Special purpose registers:**

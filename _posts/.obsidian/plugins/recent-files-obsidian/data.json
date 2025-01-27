@@ -1,40 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-01-15-excercise 2 3",
-      "path": "GPU/2025-01-15-excercise 2 3.md"
-    },
-    {
-      "basename": "2025-01-19-PO-Lecture-2-Memory-Hierarchy",
-      "path": "GPU/2025-01-19-PO-Lecture-2-Memory-Hierarchy.md"
-    },
-    {
-      "basename": "2025-01-20-PO-3",
-      "path": "GPU/2025-01-20-PO-3.md"
-    },
-    {
-      "basename": "2025-01-30-PO-Lecture5-Performance -Measurements",
-      "path": "GPU/2025-01-30-PO-Lecture5-Performance -Measurements.md"
-    },
-    {
-      "basename": "2025-01-29-Exercise-5",
-      "path": "GPU/2025-01-29-Exercise-5.md"
-    },
-    {
-      "basename": "2025-01-22-excercise-4",
-      "path": "GPU/2025-01-22-excercise-4.md"
-    },
-    {
-      "basename": "post_note",
-      "path": "template/post_note.md"
-    },
-    {
-      "basename": "2024-11-20-Remote SSH key configuration",
-      "path": "za/2024-11-20-Remote SSH key configuration.md"
-    },
-    {
-      "basename": "temp",
-      "path": "za/temp.md"
+      "basename": "2025-02-01-CV-6",
+      "path": "CV/2025-02-01-CV-6.md"
     },
     {
       "basename": "2025-02-02-CV-Assignment-Part1",
@@ -45,104 +13,32 @@
       "path": "CV/2025-01-31-CV-5.md"
     },
     {
-      "basename": "Assignment Jan Feb 2025",
-      "path": "CV/Assignment Jan Feb 2025.pdf"
-    },
-    {
-      "basename": "2024-11-19-Session 03-OpenMP2",
-      "path": "HPC/2024-11-19-Session 03-OpenMP2.md"
-    },
-    {
-      "basename": "2024-11-20-HPC-Session 04-OpenMP3",
-      "path": "HPC/2024-11-20-HPC-Session 04-OpenMP3.md"
-    },
-    {
-      "basename": "2024-11-15-Session 02 OpenMP(13)",
-      "path": "HPC/2024-11-15-Session 02 OpenMP(13).md"
-    },
-    {
-      "basename": "2024-11-15-HPC-Session 01",
-      "path": "HPC/2024-11-15-HPC-Session 01.md"
-    },
-    {
-      "basename": "2025-02-01-CV-6",
-      "path": "CV/2025-02-01-CV-6.md"
-    },
-    {
-      "basename": "PLAN",
-      "path": "PLAN.md"
-    },
-    {
-      "basename": "2025-01-20-CV-4",
-      "path": "CV/2025-01-20-CV-4.md"
-    },
-    {
-      "basename": "2025-01-20-CV-3",
-      "path": "CV/2025-01-20-CV-3.md"
-    },
-    {
-      "basename": "2025-01-13-CV-2",
-      "path": "CV/2025-01-13-CV-2.md"
-    },
-    {
       "basename": "2025-01-26-CV-workshop-3",
       "path": "CV/2025-01-26-CV-workshop-3.md"
     },
     {
-      "basename": "2025-01-23-UL-2",
-      "path": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-23-UL-2.md"
+      "basename": "2025-01-22-excercise-4",
+      "path": "GPU/2025-01-22-excercise-4.md"
     },
     {
-      "basename": "2025-01-13-PO-1overview",
-      "path": "GPU/2025-01-13-PO-1overview.md"
+      "basename": "2025-01-15-excercise 2 3",
+      "path": "GPU/2025-01-15-excercise 2 3.md"
     },
     {
-      "basename": "excalibrain",
-      "path": "excalibrain.md"
+      "basename": "2025-01-29-Exercise-5",
+      "path": "GPU/2025-01-29-Exercise-5.md"
     },
     {
-      "basename": "Document EM Notes",
-      "path": "Document EM Notes.pdf"
-    },
-    {
-      "basename": "2025-01-27-相关矩阵&协方差矩阵",
-      "path": "MATH/Statistics/2025-01-27-相关矩阵&协方差矩阵.md"
-    },
-    {
-      "basename": "UL1",
-      "path": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/UL1.pdf"
-    },
-    {
-      "basename": "2025-01-28-kmeans",
-      "path": "MATH/Statistics/2025-01-28-kmeans.md"
-    },
-    {
-      "basename": "2025-01-17-UP-L1",
-      "path": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md"
+      "basename": "2025-01-30-PO-Lecture5-Performance -Measurements",
+      "path": "GPU/2025-01-30-PO-Lecture5-Performance -Measurements.md"
     },
     {
       "basename": "Drawing 2025-01-21 02.03.58.excalidraw",
       "path": "Excalidraw/Drawing 2025-01-21 02.03.58.excalidraw.md"
     },
     {
-      "basename": "2025-01-14-ASML-Foundation",
-      "path": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md"
-    },
-    {
-      "basename": "2025-01-24-Bayes-Theorem",
-      "path": "MATH/Statistics/2025-01-24-Bayes-Theorem.md"
-    },
-    {
-      "basename": "2025-01-13-1excercise",
-      "path": "GPU/2025-01-13-1excercise.md"
-    },
-    {
-      "basename": "2025-01-13-CV-1",
-      "path": "CV/2025-01-13-CV-1.md"
-    },
-    {
-      "basename": "2025-01-25-conditional-probability",
-      "path": "MATH/Statistics/2025-01-25-conditional-probability.md"
+      "basename": "PLAN",
+      "path": "PLAN.md"
     }
   ],
   "omittedPaths": [],

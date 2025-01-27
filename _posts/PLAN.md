@@ -22,6 +22,7 @@ kanban-plugin: board
 - [ ] 回顾CV2
 - [ ] CV ex 3
 - [ ] CV ex4
+- [ ] OP作业4
 
 
 ## Done

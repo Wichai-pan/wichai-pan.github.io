@@ -100,11 +100,32 @@
       "provider": "azure openai",
       "enabled": true,
       "isBuiltIn": true
+    },
+    {
+      "name": "deepseek-r1:8b",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "temperature": 0.1,
+      "context": 1000,
+      "stream": true,
+      "enableCors": false
     }
   ],
   "activeEmbeddingModels": [
     {
       "name": "copilot-plus-small",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
+    },
+    {
+      "name": "copilot-plus-large",
       "provider": "copilot-plus",
       "enabled": true,
       "isBuiltIn": true,
