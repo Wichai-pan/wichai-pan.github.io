@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV/2025-02-01-CV-6.md",
+                "file": "CV/2025-02-02-CV-Assignment-Part1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-01-CV-6"
+              "title": "2025-02-02-CV-Assignment-Part1"
             }
           }
         ],
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV/2025-02-01-CV-6.md",
+                "file": "CV/2025-02-02-CV-Assignment-Part1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-02-01-CV-6 的反向链接列表"
+              "title": "2025-02-02-CV-Assignment-Part1 的反向链接列表"
             }
           },
           {
@@ -260,10 +260,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6fbe2cc9058d96da",
+  "active": "613fc7e7144b7a69",
   "lastOpenFiles": [
-    "PLAN.md",
+    "Assignment.md",
+    "CV/2025-02-02-CV-Assignment-Part1.md",
+    "CV/Assignment Jan Feb 2025.pdf",
+    "HPC/2024-11-19-Session 03-OpenMP2.md",
+    "HPC/2024-11-15-Session 02 OpenMP(13).md",
+    "HPC/2024-11-15-HPC-Session 01.md",
     "CV/2025-02-01-CV-6.md",
+    "PLAN.md",
     "CV/2025-01-31-CV-5.md",
     "CV/2025-01-20-CV-4.md",
     "CV/2025-01-20-CV-3.md",
@@ -286,11 +292,6 @@
     "Excalidraw/Drawing 2025-01-21 02.03.58.excalidraw.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-14-ASML-Foundation.md",
     "MATH/Statistics/2025-01-24-Bayes-Theorem.md",
-    "GPU/2025-01-15-excercise 2 3.md",
-    "GPU/2025-01-13-1excercise.md",
-    "CV/2025-01-13-CV-1.md",
-    "MATH/Statistics/2025-01-25-conditional-probability.md",
-    "2025-01-25-conditional-probability.md",
     "MATH/Math Deep.pdf",
     "MATH/Statistics",
     "未命名.canvas",
