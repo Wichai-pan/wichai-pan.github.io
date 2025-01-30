@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV/2025-02-01-CV-6.md",
+                "file": "CV/2025-02-03-CV-workshop5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-01-CV-6"
+              "title": "2025-02-03-CV-workshop5"
             }
           }
         ]
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV/2025-02-01-CV-6.md",
+                "file": "CV/2025-02-03-CV-workshop5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-02-01-CV-6 的反向链接列表"
+              "title": "2025-02-03-CV-workshop5 的反向链接列表"
             }
           },
           {
@@ -204,7 +204,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 462.5
+    "width": 462.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,13 +226,17 @@
       "homepage:Open homepage": false,
       "translate:Open translation view": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "e7f477c2454a8713",
   "lastOpenFiles": [
-    "CV/2025-02-02-CV-Assignment-Part1.md",
+    "PLAN.md",
+    "CV/2025-02-03-CV-workshop5.md",
     "CV/2025-02-01-CV-6.md",
+    "CV/2025-02-02-CV-Assignment-Part1.md",
     "CV/2025-01-31-CV-5.md",
     "CV/2025-01-26-CV-workshop-3.md",
     "GPU/2025-01-22-excercise-4.md",
@@ -239,7 +244,6 @@
     "GPU/2025-01-29-Exercise-5.md",
     "GPU/2025-01-30-PO-Lecture5-Performance -Measurements.md",
     "Excalidraw/Drawing 2025-01-21 02.03.58.excalidraw.md",
-    "PLAN.md",
     "Document EM Notes.pdf",
     "Excalidraw/Drawing 2025-01-27 16.52.26.excalidraw.md",
     "GPU/2025-01-13-PO-1overview.md",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-02-03-CV-workshop5",
+      "path": "CV/2025-02-03-CV-workshop5.md"
+    },
+    {
+      "basename": "PLAN",
+      "path": "PLAN.md"
+    },
+    {
       "basename": "2025-02-01-CV-6",
       "path": "CV/2025-02-01-CV-6.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Drawing 2025-01-21 02.03.58.excalidraw",
       "path": "Excalidraw/Drawing 2025-01-21 02.03.58.excalidraw.md"
-    },
-    {
-      "basename": "PLAN",
-      "path": "PLAN.md"
     }
   ],
   "omittedPaths": [],
