@@ -20,7 +20,6 @@ kanban-plugin: board
 
 - [ ] 回顾CV1
 - [ ] 回顾CV2
-- [ ] CV ex 3
 - [ ] CV ex4
 - [ ] OP作业4
 
@@ -28,6 +27,7 @@ kanban-plugin: board
 ## Done
 
 **完成**
+- [x] CV ex 3 ✅ 2025-01-30
 - [x] CV5 note ✅ 2025-01-27
 - [x] 回顾UL1
 - [x] CV4笔记
