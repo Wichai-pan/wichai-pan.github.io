@@ -22,11 +22,16 @@ kanban-plugin: board
 - [ ] 回顾CV2
 - [ ] CV ex4
 - [ ] OP作业4
+- [ ] 选题
+- [ ] CV ex 5
+- [ ] CV assignment part 1
+- [ ] UL4 note
 
 
 ## Done
 
 **完成**
+- [x] UL3 note ✅ 2025-02-01
 - [x] CV ex 3 ✅ 2025-01-30
 - [x] CV5 note ✅ 2025-01-27
 - [x] 回顾UL1
