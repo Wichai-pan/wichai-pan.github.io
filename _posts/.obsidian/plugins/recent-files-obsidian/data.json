@@ -1,5 +1,26 @@
 {
-  "recentFiles": [],
+  "recentFiles": [
+    {
+      "basename": "2025-02-07-PO-6",
+      "path": "GPU/2025-02-07-PO-6.md"
+    },
+    {
+      "basename": "2025-02-03-CV-8",
+      "path": "CV/2025-02-03-CV-8.md"
+    },
+    {
+      "basename": "2025-02-03-CV-7",
+      "path": "CV/2025-02-03-CV-7.md"
+    },
+    {
+      "basename": "Drawing 2025-02-03 14.32.31.excalidraw",
+      "path": "Excalidraw/Drawing 2025-02-03 14.32.31.excalidraw.md"
+    },
+    {
+      "basename": "2025-02-03-CV-workshop5",
+      "path": "CV/2025-02-03-CV-workshop5.md"
+    }
+  ],
   "omittedPaths": [],
   "omittedTags": [],
   "updateOn": "file-open",
