@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPU/2025-02-07-PO-6.md",
+                "file": "GPU/2025-02-03-exercise 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-07-PO-6"
+              "title": "2025-02-03-exercise 7"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "d359235eee83880d",
         "type": "tabs",
-        "dimension": 81.30841121495327,
+        "dimension": 81.35593220338984,
         "children": [
           {
             "id": "6fbe2cc9058d96da",
@@ -80,7 +80,7 @@
       {
         "id": "f5615b8d7461c98e",
         "type": "tabs",
-        "dimension": 18.69158878504673,
+        "dimension": 18.64406779661017,
         "children": [
           {
             "id": "9f25e39d4c8a93f2",
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPU/2025-02-07-PO-6.md",
+                "file": "GPU/2025-02-03-exercise 7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-02-07-PO-6 的大纲"
+              "title": "2025-02-03-exercise 7 的大纲"
             }
           },
           {
@@ -234,13 +234,15 @@
   },
   "active": "2194da3dad0ecd9f",
   "lastOpenFiles": [
-    "GPU/2025-02-03-exersice 6.md",
+    "GPU/2025-02-03-exercise 6.md",
+    "GPU/2025-02-03-exercise 7.md",
+    "GPU/2025-02-03-PO-7.md",
     "GPU/2025-01-30-PO-Lecture5-Performance -Measurements.md",
-    "GPU/2025-02-07-PO-6.md",
+    "GPU/2025-02-03-PO-6.md",
+    "CV/2025-02-03-CV-workshop5.md",
     "CV/2025-02-03-CV-8.md",
     "CV/2025-02-03-CV-7.md",
     "Excalidraw/Drawing 2025-02-03 14.32.31.excalidraw.md",
-    "CV/2025-02-03-CV-workshop5.md",
     "未命名看板.md",
     "2025-02-09-.md",
     "template/post_note.md",
@@ -262,8 +264,6 @@
     "Miscellaneous/大学生 搜索技巧.pdf",
     "Miscellaneous/常用网站推荐.pdf",
     "Document EM Notes.pdf",
-    "CV/2025-02-01-CV-6.md",
-    "CV/2025-02-02-CV-Assignment-Part1.md",
     "CV/Assignment Jan Feb 2025.pdf",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/UL1.pdf",
     "UL1.pdf",
