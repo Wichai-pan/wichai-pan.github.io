@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-02-04-UL-3.md",
+                "file": "Introduction to Machine Learining/2024-11-16-L2.1 Logistic regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-04-UL-3"
+              "title": "2024-11-16-L2.1 Logistic regression"
             }
           },
           {
-            "id": "e973645f71c72a69",
+            "id": "cf44b0f058b73e5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-02-05-UL-4.md",
+                "file": "CV/2025-02-03-CV-7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-05-UL-4"
+              "title": "2025-02-03-CV-7"
             }
           }
         ],
@@ -48,7 +48,7 @@
       {
         "id": "d359235eee83880d",
         "type": "tabs",
-        "dimension": 79.38144329896907,
+        "dimension": 71.71145685997172,
         "children": [
           {
             "id": "6fbe2cc9058d96da",
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Source",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
       {
         "id": "f5615b8d7461c98e",
         "type": "tabs",
-        "dimension": 20.618556701030926,
+        "dimension": 28.28854314002829,
         "children": [
           {
             "id": "9f25e39d4c8a93f2",
@@ -174,10 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-23-UL-2.md"
+                "file": "CV/2025-02-03-CV-7.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-01-23-UL-2 的大纲"
+              "title": "2025-02-03-CV-7 的大纲"
             }
           },
           {
@@ -217,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -245,11 +248,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e973645f71c72a69",
+  "active": "cf44b0f058b73e5d",
   "lastOpenFiles": [
+    "Introduction to Machine Learining/2024-11-16-L2.1 Logistic regression.md",
+    "Robotics/2024-11-16-Robotics-5.md",
+    "Robotics/2024-11-15-Robotics-4.md",
     "PLAN.md",
-    "2025-02-05-UL-4.md",
+    "CV/2025-01-31-CV-5.md",
+    "CV/2025-02-03-CV-7.md",
+    "CV/2025-02-03-CV-workshop5.md",
+    "Excalidraw/Drawing 2025-01-21 02.03.58.excalidraw.md",
+    "Miscellaneous/2025-02-06-资源.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-02-05-UL-4.md",
+    "2025-02-05-UL-4.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-02-04-UL-3.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-01-17-UP-L1.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/2025-02-04-.md",
@@ -258,12 +269,9 @@
     "Miscellaneous/浏览器插件和油猴介绍.pdf",
     "Miscellaneous/大学生 搜索技巧.pdf",
     "Miscellaneous/常用网站推荐.pdf",
-    "CV/2025-02-03-CV-workshop5.md",
     "Document EM Notes.pdf",
-    "Excalidraw/Drawing 2025-01-21 02.03.58.excalidraw.md",
     "CV/2025-02-01-CV-6.md",
     "CV/2025-02-02-CV-Assignment-Part1.md",
-    "CV/2025-01-31-CV-5.md",
     "CV/2025-01-26-CV-workshop-3.md",
     "GPU/2025-01-22-excercise-4.md",
     "GPU/2025-01-15-excercise 2 3.md",
@@ -272,12 +280,7 @@
     "Excalidraw/Drawing 2025-01-27 16.52.26.excalidraw.md",
     "GPU/2025-01-13-PO-1overview.md",
     "GPU/2025-01-19-PO-Lecture-2-Memory-Hierarchy.md",
-    "GPU/2025-01-20-PO-3.md",
-    "template/post_note.md",
-    "za/2024-11-20-Remote SSH key configuration.md",
-    "za/temp.md",
     "CV/Assignment Jan Feb 2025.pdf",
-    "HPC/2024-11-19-Session 03-OpenMP2.md",
     "Advanced Statistical and Machine Learning: Foundations andUnsupervised Learning/UL1.pdf",
     "UL1.pdf",
     "MATH/Math Deep.pdf",

@@ -25,7 +25,6 @@ kanban-plugin: board
 - [ ] 选题
 - [ ] CV ex 5
 - [ ] CV assignment part 1
-- [ ] UL4 note
 
 
 ## Done
@@ -36,6 +35,7 @@ kanban-plugin: board
 - [x] CV5 note ✅ 2025-01-27
 - [x] 回顾UL1
 - [x] CV4笔记
+- [x] UL4 note ✅ 2025-02-02
 - [x] CV3笔记
 - [x] 贝叶斯笔记 ✅ 2025-01-23
 - [x] 宝宝summative ✅ 2025-01-26
