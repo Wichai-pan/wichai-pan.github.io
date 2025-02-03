@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPU/2025-02-03-exercise 7.md",
+                "file": "GPU/2025-02-03-PO-7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-03-exercise 7"
+              "title": "2025-02-03-PO-7"
             }
           }
         ]
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPU/2025-02-03-exercise 7.md",
+                "file": "GPU/2025-02-03-PO-7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-02-03-exercise 7 的大纲"
+              "title": "2025-02-03-PO-7 的大纲"
             }
           },
           {
@@ -234,11 +234,11 @@
   },
   "active": "2194da3dad0ecd9f",
   "lastOpenFiles": [
-    "GPU/2025-02-03-exercise 6.md",
-    "GPU/2025-02-03-exercise 7.md",
-    "GPU/2025-02-03-PO-7.md",
-    "GPU/2025-01-30-PO-Lecture5-Performance -Measurements.md",
     "GPU/2025-02-03-PO-6.md",
+    "GPU/2025-02-03-PO-7.md",
+    "GPU/2025-02-03-exercise 7.md",
+    "GPU/2025-02-03-exercise 6.md",
+    "GPU/2025-01-30-PO-Lecture5-Performance -Measurements.md",
     "CV/2025-02-03-CV-workshop5.md",
     "CV/2025-02-03-CV-8.md",
     "CV/2025-02-03-CV-7.md",
