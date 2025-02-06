@@ -14,22 +14,26 @@ kanban-plugin: board
 - [ ] ASML作业
 - [ ] 回顾UL2
 - [ ] 回顾CV4
+- [ ] 更新简历
+- [ ] 确定项目时间
 
 
 ## In Progress
 
+- [ ] ASML F
+- [ ] ASML UL
+- [ ] CV assignment part 1
+- [ ] 选题
 - [ ] 回顾CV1
 - [ ] 回顾CV2
-- [ ] CV ex4
 - [ ] OP作业4
-- [ ] 选题
-- [ ] CV ex 5
-- [ ] CV assignment part 1
 
 
 ## Done
 
 **完成**
+- [x] CV ex 5 ✅ 2025-02-04
+- [x] CV ex4 ✅ 2025-02-04
 - [x] UL3 note ✅ 2025-02-01
 - [x] CV ex 3 ✅ 2025-01-30
 - [x] CV5 note ✅ 2025-01-27
