@@ -8,6 +8,7 @@ categories:
   - Master
 tags:
   - DU
+  - CV
 mermaid: true
 math: true
 pin: false

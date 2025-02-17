@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-02-03-R",
+      "path": "Coding Language/2025-02-03-R.md"
+    },
+    {
+      "basename": "Drawing 2025-02-03 14.32.31.excalidraw",
+      "path": "Excalidraw/Drawing 2025-02-03 14.32.31.excalidraw.md"
+    },
+    {
+      "basename": "2025-02-02-CV-Assignment-Part1",
+      "path": "CV/2025-02-02-CV-Assignment-Part1.md"
+    },
+    {
       "basename": "2025-02-07-workshop-7",
       "path": "CV/2025-02-07-workshop-7.md"
+    },
+    {
+      "basename": "PLAN",
+      "path": "PLAN.md"
     },
     {
       "basename": "2025-02-03-exercise 7",
@@ -19,10 +35,6 @@
     {
       "basename": "浏览器插件和油猴介绍",
       "path": "Miscellaneous/浏览器插件和油猴介绍.pdf"
-    },
-    {
-      "basename": "PLAN",
-      "path": "PLAN.md"
     }
   ],
   "omittedPaths": [],

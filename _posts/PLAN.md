@@ -32,6 +32,7 @@ kanban-plugin: board
 ## Done
 
 **完成**
+- [x] CV ws7 ✅ 2025-02-07
 - [x] CV ex 5 ✅ 2025-02-04
 - [x] CV ex4 ✅ 2025-02-04
 - [x] UL3 note ✅ 2025-02-01

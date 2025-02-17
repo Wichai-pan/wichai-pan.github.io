@@ -81,3 +81,14 @@ Dataset of CT scans will be made available by Tuesday 28th January 2025 (next we
 For each part, you are asked to create a Jupyter Notebook, where you will provide the textual description of your solutions and the implemented code. Your notebook should be structured in sections. An introduction should describe in detail the libraries you used, where to find them and how you solved the tasks. Then you should include one section for each task solution, where again you describe your solution. 
 
 **The code must be executed**, so that the solutions are visualised, in terms of graphics, images and results; it is strongly recommended you also include snippets of the formulae implemented by the used algorithms and the graphics of the employed architecture. Your code should be implemented in Python, using OpenCV as the main set of computer vision libraries. Please do make sure your code runs. Notebooks will have to be uploaded on Gradescope.
+
+# Solution
+1. 预处理
+	1. 归一化
+	2. 去除噪声
+	3. 直方图均衡化
+2. 图像分割
+	1. 阈值分割
+	2. 骨骼排除
+		1. **形态学操作**：使用 **开运算（opening）** 以去除较大、规则的骨骼结构。
+		2. **连通区域分析（Connected Component Analysis）**：识别并移除 **较大的高密度区域**（通常是骨骼）。
