@@ -92,3 +92,5 @@ For each part, you are asked to create a Jupyter Notebook, where you will provid
 	2. 骨骼排除
 		1. **形态学操作**：使用 **开运算（opening）** 以去除较大、规则的骨骼结构。
 		2. **连通区域分析（Connected Component Analysis）**：识别并移除 **较大的高密度区域**（通常是骨骼）。
+![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250220112946.png)
+![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250220132938.png)
