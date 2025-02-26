@@ -20,23 +20,34 @@ kanban-plugin: board
 - [ ] OP作业4
 - [ ] GPU 1 笔记
 - [ ] 安嘉球衣
+- [ ] 看kaggle项目
+- [ ] GPU lab1
+- [ ] GPU Lab 2
+- [ ] POGPU Assignment
+- [ ] 贴春联
 
 
 ## In Progress
 
-- [ ] 看二硕项目
-- [ ] 更新简历
-- [ ] CV Assignment part 2
-- [ ] 丢垃圾
-- [ ] 取消canva会员
-- [ ] DLVR L1 2笔记
+- [ ] 更新简历 @{2025-02-26}
+- [ ] 精读论文 完成PPT
+- [ ] 总结读论文方法
+- [ ] 看二硕项目 筛选项目
 - [ ] 联合AI UPF提交申请
-- [ ] 申请VPN
+- [ ] CV Assignment part 2
+- [ ] DLVR L1 2笔记
+- [ ] 剪头发
+- [ ] 给宝宝带冰箱贴
 
 
 ## Done
 
 **完成**
+- [x] 给妈妈买褪黑素 ✅ 2025-02-26
+- [x] 解压模型文件 ✅ 2025-02-26
+- [x] 申请VPN ✅ 2025-02-26
+- [x] 取消canva会员 ✅ 2025-02-26
+- [x] 丢垃圾 ✅ 2025-02-26
 - [x] 洗衣服（剩下的 ✅ 2025-02-23
 - [x] 记账 ✅ 2025-02-23
 - [x] 做好论文模版 ✅ 2025-02-23
@@ -65,6 +76,7 @@ kanban-plugin: board
 
 - [ ] Final Project
 - [ ] 学业规划
+- [ ] Kaggle
 
 
 ***
