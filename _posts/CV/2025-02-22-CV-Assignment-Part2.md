@@ -1,10 +1,13 @@
 ---
 layout: post
-title: 2025-02-22
+title: CV Assignment Part 2
 author: wichai
 date: 2025-02-22 00:09
-categories: [Study, Master]
-tags: [DU, ]
+categories:
+  - Study
+  - Master
+tags:
+  - DU
 mermaid: true
 math: true
 pin: false
