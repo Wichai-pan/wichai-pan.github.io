@@ -9,7 +9,6 @@ categories:
 tags:
   - DU
   - GPU
-  - AI
 mermaid: true
 math: true
 pin: false
