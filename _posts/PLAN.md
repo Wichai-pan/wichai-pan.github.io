@@ -6,46 +6,42 @@ kanban-plugin: board
 
 ## TODO
 
-- [ ] 回顾F
-- [ ] 回顾OP1
-- [ ] 回顾OP2
-- [ ] 回顾OP3
-- [ ] 回顾CV1
-- [ ] 回顾CV2
-- [ ] 回顾CV3
-- [ ] 回顾UL2
-- [ ] 回顾CV4
-- [ ] 到扫卫生
-- [ ] DLVR Seminar 论文阅读
-- [ ] OP作业4
-- [ ] GPU 1 笔记
-- [ ] 安嘉球衣
-- [ ] 看kaggle项目
-- [ ] GPU lab1
-- [ ] GPU Lab 2
-- [ ] POGPU Assignment
-- [ ] 贴春联
-- [ ] DLVR Lab
 - [ ] AWS取消会员 6个月
-- [ ] 看德国的硕士，决定是不是要申请
+- [ ] Note for WS2
+- [ ] Coverwise 要钱
+- [ ] 迁移邮件和blackboard
+- [ ] 规划自学贝叶斯和捡起来数学
+- [ ] 截止时间插件？
+- [ ] 看WS EX1 录像
+- [ ] Find what to do for Academic
+- [ ] 总结WS的题目
+- [ ] WS-Homework & Ex  due on 9.12
+- [ ] EMR AS 1 DL 9.15
+- [ ] CCS Tuesday, 16 September 2025, 14:30
+- [ ] DOC Homework (group) Friday, 26.09. at 18:00.
+- [ ] Academic Skills
 
 
 ## In Progress
 
 - [ ] 更新简历 @{2025-02-26}
 - [ ] 总结读论文方法
-- [ ] DLVR L1 2笔记
-- [ ] 发布数据集
-- [ ] 开始着手项目
-- [ ] 申请西班牙的硕士
-- [ ] DLPRV Assignment DDL: 4.28
-- [ ] GPU Assignment DDL: 4.28
-- [ ] PS
+- [ ] Note for EM1
+- [ ] Note for WS1
+- [ ] Note for ML1
+- [ ] Note for SML
+- [ ] Note for DO1
+- [ ] SML quiz 1 9.10
+- [ ] ML Ass1 jynotebook due 9.11
 
 
 ## Done
 
 **完成**
+- [x] WS post qiuz 3 ✅ 2025-09-08
+- [x] 疑似小组分配 WS，紧急 ✅ 2025-09-08
+- [x] WS-post-quiz 1&2 ✅ 2025-09-05
+- [x] WS-Pre-quiz 1 DDL:9.8 ✅ 2025-09-08
 - [x] Cyber项目 ✅ 2025-03-03
 - [x] 给宝宝带冰箱贴 ✅ 2025-03-03
 - [x] 看二硕项目 筛选项目 ✅ 2025-03-24
