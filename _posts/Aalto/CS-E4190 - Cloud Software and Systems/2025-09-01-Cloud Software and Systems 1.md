@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2025-09-01
+title: 2025-09-01-Cloud Software and Systems 1
 author: wichai
 date: 2025-09-01 14:09
 categories:

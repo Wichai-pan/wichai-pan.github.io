@@ -15,11 +15,11 @@ kanban-plugin: board
 - [ ] 看WS EX1 录像
 - [ ] Find what to do for Academic
 - [ ] 总结WS的题目
-- [ ] WS-Homework & Ex  due on 9.12
-- [ ] EMR AS 1 DL 9.15
-- [ ] CCS Tuesday, 16 September 2025, 14:30
 - [ ] DOC Homework (group) Friday, 26.09. at 18:00.
 - [ ] Academic Skills
+- [ ] SML quiz 2
+- [ ] WS pre quiz 2
+- [ ] WS homework 2
 
 
 ## In Progress
@@ -27,17 +27,26 @@ kanban-plugin: board
 - [ ] 更新简历 @{2025-02-26}
 - [ ] 总结读论文方法
 - [ ] Note for EM1
-- [ ] Note for WS1
 - [ ] Note for ML1
 - [ ] Note for SML
 - [ ] Note for DO1
-- [ ] SML quiz 1 9.10
-- [ ] ML Ass1 jynotebook due 9.11
+- [ ] 回看学习SML1作业
+- [ ] 足球会员
+- [ ] Note for WS1 2 3 4
+- [ ] DO quiz 1 9.15
+- [ ] EMR AS 1 DL 9.15
+- [ ] CCS Tuesday, 16 September 2025, 14:30
+- [ ] 处理prepaid卡
 
 
 ## Done
 
 **完成**
+- [x] WS-Homework & Ex  due on 9.12 ✅ 2025-09-12
+- [x] ML Ass1 jynotebook due 9.11 ✅ 2025-09-11
+- [x] WS Homework 12 September 2025 ✅ 2025-09-12
+- [x] SML quiz 1 9.10 ✅ 2025-09-11
+- [x] WS post quiz 4 ✅ 2025-09-10
 - [x] WS post qiuz 3 ✅ 2025-09-08
 - [x] 疑似小组分配 WS，紧急 ✅ 2025-09-08
 - [x] WS-post-quiz 1&2 ✅ 2025-09-05
@@ -85,6 +94,11 @@ kanban-plugin: board
 - [ ] Kaggle
 
 
+## 
+
+- [ ] Nord 年订阅
+
+
 ***
 
 ## 归档
@@ -93,6 +107,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
 ```
 %%
