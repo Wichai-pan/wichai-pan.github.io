@@ -104,7 +104,7 @@ By the end of this lecture, you should be able to:
 
 - Many application examples use microcontrollers, *i.e.*, work in discrete time: robots, cars, chemical processes, ...
 - But the underlying dynamics are continuous...
-- → We need to [discretize them, which we will discuss in the next lecture](#)
+- → We need to [discretize them, which we will discuss in the next lecture] 
 - For today, let’s consider a system that naturally evolves in discrete time
 
 
@@ -410,7 +410,7 @@ $$
 
 ## Properties of right-sided *z*-transforms
 
-[Delays](#)
+[Delays] 
 
 $$
 \mathcal{Z}_+\{x_{k-k_0}\} = z^{-k_0} \left( X_+(z) + \sum_{m=-k_0}^{-1} x_m z^{-m} \right), \quad \text{ROC}_x \text{ except } z=0
@@ -427,7 +427,7 @@ $$
 $$
 
 
-[Prediction](#)
+[Prediction] 
 
 $$
 \mathcal{Z}_{+}\{x_{k+k_0}\} = z^{k_0} \left( X_+(z) - \sum_{m=0}^{k_0-1} x_m z^{-m} \right), \quad \text{ROC}_x \text{ except } z = \infty

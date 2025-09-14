@@ -273,14 +273,14 @@ if $\mathbf{X}^T \mathbf{X}$ invertible, and by computing a pseudo-inverse, othe
 
 ### Binary classification
 
-- Goal: learn a class $ C $, $ C(\mathbf{x}) = 1 $ for members of the class, $ C(\mathbf{x}) = 0 $ for others
+- Goal: learn a class $C$, $C(\mathbf{x}) = 1$ for members of the class, $C(\mathbf{x}) = 0$ for others
 - Example: decide if car is a family car $(C(\mathbf{x}) = 1)$ or not $(C(\mathbf{x}) = 0)$
 - We have a training set of labeled examples
   - positive examples of family cars
   - negative examples of other than family cars
 - Assume two relevant input variables have been picked by a human expert: price and engine power
 
-![Scatter plot with red and purple points separated by decision boundary](#)
+
 
 ### Data representation
 
@@ -389,8 +389,6 @@ From the confusion matrix, many **evaluation metrics** besides can be computed
 And many others see e.g.  
 https://en.wikipedia.org/wiki/Confusion_matrix
 
-![Confusion matrix image showing True Positive (TP), False Positive (FP), False Negative (FN), True Negative (TN), and counts in a 2x2 table format](attachment)
-
 ### Receiver Operating Characteristics(ROC)
 
 - ROC curves summarize the trade-off between the true positive rate and false positive rate for a predictive model using different probability thresholds.
@@ -412,8 +410,6 @@ $$
 - The higher the ROC curve goes, the better the algorithm or model (higher TP rate for the same FP rate)
 - If two ROC curves cross it means neither model/algorithm is globally better
 - The curve is sometimes summarized into a single number, the area under the curve (AUC or AUROC)
-
-![Example ROC curve and Different ROC curves for different classifiers](image)
 
 ### Model evaluation by testing
 

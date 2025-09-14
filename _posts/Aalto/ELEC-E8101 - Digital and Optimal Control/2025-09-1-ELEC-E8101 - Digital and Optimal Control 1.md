@@ -45,15 +45,15 @@ By the end of this lecture, you should be able to
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250913210526851.png)
 
 
-- The controller computes the input signal  $u(t) $ that lets the output signal  $y(t) $ follow the reference signal  $r(t) $
+- The controller computes the input signal  $u(t)$ that lets the output signal  $y(t)$ follow the reference signal  $r(t)$
 - Solution without feedback ( [open-loop control](https://en.wikipedia.org/wiki/Open-loop_control_system) ) relies on constant conditions
 - **But what happens if the road slope changes (disturbances)?**
 
 
-- We need to adapt to slope changes ([disturbances](#))
-- So, we need some information about the speed ([feedback](#))
-- The controller takes slope changes ([disturbances](#)) into account by observing the speed ([feedback](#))
-- This solution is with feedback ([closed-loop control](#))
+- We need to adapt to slope changes ([disturbances] )
+- So, we need some information about the speed ([feedback]()
+- The controller takes slope changes ([disturbances]) into account by observing the speed ([feedback] )
+- This solution is with feedback ([closed-loop control])
 
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250913210551623.png)
 
@@ -246,7 +246,7 @@ $$
 
 - Settles much quicker than continuous-time controller
 - Output reaches desired value without overshoot
-- [We will study this concept in Lecture 9](#)
+- [We will study this concept in Lecture 9] 
 - Such a control scheme cannot be obtained with a continuous-time controller!
 
 
@@ -255,7 +255,7 @@ $$
 - The Laplace transform is very similar to the Fourier transform
 - The Laplace transform often simplifies the analysis of continuous-time systems
 - For example, the Laplace transform transforms differential equations into algebraic equations and convolutions into multiplications
-- For these reasons, analog systems are often designed and analyzed using the [Laplace transform](#)
+- For these reasons, analog systems are often designed and analyzed using the [Laplace transform] 
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250913210842509.png)
 
 
@@ -306,27 +306,27 @@ $$
 
 ## From properties of the Laplace transform
 
-[Linearity](#)  
+[Linearity]   
 $$
 \mathcal{L}\{af(t) + bg(t)\} = a\mathcal{L}\{f(t)\} + b\mathcal{L}\{g(t)\}
 $$
 
-[Derivative](#)  
+[Derivative]   
 $$
 \mathcal{L}\{f'(t)\} = sF(s) - f(0)
 $$
 
-[Frequency shifting](#)  
+[Frequency shifting]   
 $$
 \mathcal{L} \left\{ e^{at} f(t) \right\} = F(s - a)
 $$
 
-[Convolution](#)  
+[Convolution]   
 $$
 \mathcal{L}\{(f * g)(t)\} = F(s)G(s)
 $$
 
-[De Moivre’s](#)  
+[De Moivre’s]   
 $$
 \mathcal{L}\{ \cos(at) + j \sin(at) \} = \mathcal{L} \left\{ e^{jat} \right\} = \frac{1}{s - ja} = \frac{s}{s^2 + a^2} + j \frac{a}{s^2 + a^2}
 $$
@@ -339,12 +339,12 @@ $$
 \mathcal{L}\{\sin(at)\} = \frac{a}{s^2 + a^2}
 $$
 
-[Final value theorem](#)  
+[Final value theorem]   
 $$
 \lim_{t \to \infty} f(t) = \lim_{s \to 0} sF(s)
 $$
 
-[Initial value theorem](#)  
+[Initial value theorem]   
 $$
 f(0) = \lim_{s \to \infty} sF(s)
 $$
