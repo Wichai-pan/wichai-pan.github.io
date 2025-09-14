@@ -104,7 +104,7 @@ By the end of this lecture, you should be able to:
 
 - Many application examples use microcontrollers, *i.e.*, work in discrete time: robots, cars, chemical processes, ...
 - But the underlying dynamics are continuous...
-- → We need to [discretize them, which we will discuss in the next lecture] 
+- → We need to discretize them, which we will discuss in the next lecture 
 - For today, let’s consider a system that naturally evolves in discrete time
 
 
@@ -410,7 +410,7 @@ $$
 
 ## Properties of right-sided *z*-transforms
 
-[Delays] 
+Delays 
 
 $$
 \mathcal{Z}_+\{x_{k-k_0}\} = z^{-k_0} \left( X_+(z) + \sum_{m=-k_0}^{-1} x_m z^{-m} \right), \quad \text{ROC}_x \text{ except } z=0
@@ -421,13 +421,13 @@ Proof
 $$
 \begin{aligned}
 \mathcal{Z}_+\{x_{k-k_0}\} &= \sum_{k=0}^{\infty} x_{k-k_0} z^{-k} \\
-&= \sum_{m=-k_0}^{\infty} x_m z^{-(m+k_0)}, \quad [m := k - k_0] \\
+&= \sum_{m=-k_0}^{\infty} x_m z^{-(m+k_0)}, \quad m := k - k_0 \\
 &= z^{-k_0} \left( \sum_{m=0}^{\infty} x_m z^{-m} + \sum_{m=-k_0}^{-1} x_m z^{-m} \right)
 \end{aligned}
 $$
 
 
-[Prediction] 
+Prediction 
 
 $$
 \mathcal{Z}_{+}\{x_{k+k_0}\} = z^{k_0} \left( X_+(z) - \sum_{m=0}^{k_0-1} x_m z^{-m} \right), \quad \text{ROC}_x \text{ except } z = \infty
@@ -438,7 +438,7 @@ Proof
 $$
 \begin{aligned}
 \mathcal{Z}_{+}\{x_{k+k_0}\} &= \sum_{k=0}^\infty x_{k+k_0} z^{-k} \\
-&= \sum_{m=k_0}^\infty x_m z^{-(m-k_0)}, \quad [m := k + k_0] \\
+&= \sum_{m=k_0}^\infty x_m z^{-(m-k_0)}, \quad m := k + k_0 \\
 &= z^{k_0} \sum_{m=k_0}^\infty x_m z^{-m} = z^{k_0} \left( \sum_{m=0}^\infty x_m z^{-m} - \sum_{m=0}^{k_0-1} x_m z^{-m} \right)
 \end{aligned}
 $$
@@ -459,7 +459,7 @@ _Analysis of discrete-time systems using_ *z*-transforms
 Differentiation in the **z**-domain
 
 $$
-\{ x_k \xleftrightarrow[z]{} X(z), \text{ROC}_x \} \implies  \left\{ k x_k \xleftrightarrow[z]{} -z \frac{d}{dz} X(z), \text{ROC}_x, \text{ possibly except } z=0 \right\}
+\{ x_k \xleftrightarrowz{} X(z), \text{ROC}_x \} \implies  \left\{ k x_k \xleftrightarrowz{} -z \frac{d}{dz} X(z), \text{ROC}_x, \text{ possibly except } z=0 \right\}
 $$
 
 Proof

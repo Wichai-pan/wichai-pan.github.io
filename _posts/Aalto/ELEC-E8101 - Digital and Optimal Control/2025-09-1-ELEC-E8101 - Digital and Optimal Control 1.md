@@ -16,8 +16,6 @@ pin: false
 
 # Preliminaries
 
-
-
 # Digital and Optimal Control 1 Introduction
 
 *Office number: 2569, Maarintie 8*  
@@ -50,10 +48,10 @@ By the end of this lecture, you should be able to
 - **But what happens if the road slope changes (disturbances)?**
 
 
-- We need to adapt to slope changes ([disturbances] )
+- We need to adapt to slope changes (disturbances )
 - So, we need some information about the speed ([feedback]()
-- The controller takes slope changes ([disturbances]) into account by observing the speed ([feedback] )
-- This solution is with feedback ([closed-loop control])
+- The controller takes slope changes (disturbances) into account by observing the speed (feedback )
+- This solution is with feedback (closed-loop control)
 
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250913210551623.png)
 
@@ -74,7 +72,7 @@ By the end of this lecture, you should be able to
 ### Open-loop system
 
 ```
-reference point → [Controller] → [Plant] → plant output
+reference point → Controller → Plant → plant output
 ```
 
 - A controller can be adjusted to give the right output
@@ -136,8 +134,8 @@ reference point → [Controller] → [Plant] → plant output
 
 - Complicated controllers implemented in software may have **software errors**
 - Most control processes are analog in nature:
-  - Signal from digital controller → converted to analog (D/A converter) – [hold](https://)
-  - Signal to the digital controller → converted to digital (A/D converter) – [sampling](https://)
+  - Signal from digital controller → converted to analog (D/A converter) – hold
+  - Signal to the digital controller → converted to digital (A/D converter) – sampling
   - Converting signals can cause **information loss**
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250913210718531.png)
 
@@ -246,7 +244,7 @@ $$
 
 - Settles much quicker than continuous-time controller
 - Output reaches desired value without overshoot
-- [We will study this concept in Lecture 9] 
+- We will study this concept in Lecture 9 
 - Such a control scheme cannot be obtained with a continuous-time controller!
 
 
@@ -255,7 +253,7 @@ $$
 - The Laplace transform is very similar to the Fourier transform
 - The Laplace transform often simplifies the analysis of continuous-time systems
 - For example, the Laplace transform transforms differential equations into algebraic equations and convolutions into multiplications
-- For these reasons, analog systems are often designed and analyzed using the [Laplace transform] 
+- For these reasons, analog systems are often designed and analyzed using the Laplace transform 
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250913210842509.png)
 
 
@@ -291,42 +289,42 @@ $$
 
 - Example 1: consider the function $x(t) = 1$:  
   $$
-  \mathcal{L}\{1\} = \int_0^\infty e^{-st} dt = \left[-\frac{1}{s} e^{-st}\right]_0^\infty = \frac{1}{s}
+  \mathcal{L}\{1\} = \int_0^\infty e^{-st} dt = \left-\frac{1}{s} e^{-st}\right_0^\infty = \frac{1}{s}
   $$
 
 - Example 2: consider the function $x(t) = e^{at}$, where $a$ is a constant:  
   $$
-  \mathcal{L}\{e^{at}\} = \int_0^\infty e^{at} e^{-st} dt = \int_0^\infty e^{-(s-a)t} dt = \left[-\frac{1}{s-a} e^{-(s-a)t}\right]_0^\infty = \frac{1}{s-a}
+  \mathcal{L}\{e^{at}\} = \int_0^\infty e^{at} e^{-st} dt = \int_0^\infty e^{-(s-a)t} dt = \left-\frac{1}{s-a} e^{-(s-a)t}\right_0^\infty = \frac{1}{s-a}
   $$
 
 - Example 3: consider the function $x(t) = t$ (for a reminder on integration by parts, see the appendix):  
   $$
-  \mathcal{L}\{t\} = \int_0^\infty t e^{-st} dt = \left[-\frac{1}{s} t e^{-st}\right]_0^\infty + \int_0^\infty \frac{1}{s} e^{-st} dt = \frac{1}{s^2}
+  \mathcal{L}\{t\} = \int_0^\infty t e^{-st} dt = \left-\frac{1}{s} t e^{-st}\right_0^\infty + \int_0^\infty \frac{1}{s} e^{-st} dt = \frac{1}{s^2}
   $$
 
 ## From properties of the Laplace transform
 
-[Linearity]   
+Linearity   
 $$
 \mathcal{L}\{af(t) + bg(t)\} = a\mathcal{L}\{f(t)\} + b\mathcal{L}\{g(t)\}
 $$
 
-[Derivative]   
+Derivative   
 $$
 \mathcal{L}\{f'(t)\} = sF(s) - f(0)
 $$
 
-[Frequency shifting]   
+Frequency shifting   
 $$
 \mathcal{L} \left\{ e^{at} f(t) \right\} = F(s - a)
 $$
 
-[Convolution]   
+Convolution   
 $$
 \mathcal{L}\{(f * g)(t)\} = F(s)G(s)
 $$
 
-[De Moivre’s]   
+De Moivre’s   
 $$
 \mathcal{L}\{ \cos(at) + j \sin(at) \} = \mathcal{L} \left\{ e^{jat} \right\} = \frac{1}{s - ja} = \frac{s}{s^2 + a^2} + j \frac{a}{s^2 + a^2}
 $$
@@ -339,12 +337,12 @@ $$
 \mathcal{L}\{\sin(at)\} = \frac{a}{s^2 + a^2}
 $$
 
-[Final value theorem]   
+Final value theorem   
 $$
 \lim_{t \to \infty} f(t) = \lim_{s \to 0} sF(s)
 $$
 
-[Initial value theorem]   
+Initial value theorem   
 $$
 f(0) = \lim_{s \to \infty} sF(s)
 $$
@@ -361,7 +359,7 @@ $$
 | $\cos(\omega_0 t)$                              | $\frac{s}{s^2 + \omega_0^2}$                                                  |
 | $\sinh(\omega_0 t)$                             | $\frac{\omega_0}{s^2 - \omega_0^2}$                                           |
 | $\cosh(\omega_0 t)$                             | $\frac{s}{s^2 - \omega_0^2}$                                                  |
-| $e^{-at}[A \cos(\omega_0 t) + B \sin(\omega_0 t)]$ | $\frac{A(s+a) + B\omega_0}{(s+a)^2 + \omega_0^2}$                              |
+| $e^{-at}A \cos(\omega_0 t) + B \sin(\omega_0 t)$ | $\frac{A(s+a) + B\omega_0}{(s+a)^2 + \omega_0^2}$                              |
 | $e^{-at}g(t)$                                   | $G(s + a)$ <br> *shift in* $s$                                              |
 | $g(t - \tau)u(t - \tau)$ where $\tau \geq 0$ | $e^{-s \tau} G(s)$ <br> *shift in* $t$                                      |
 | $t g(t)$                                        | $-\frac{d}{ds}G(s)$                                                           |
