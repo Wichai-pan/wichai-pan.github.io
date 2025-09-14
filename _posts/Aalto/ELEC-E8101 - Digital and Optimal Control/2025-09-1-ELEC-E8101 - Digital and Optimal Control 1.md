@@ -49,7 +49,7 @@ By the end of this lecture, you should be able to
 
 
 - We need to adapt to slope changes (disturbances )
-- So, we need some information about the speed ([feedback]()
+- So, we need some information about the speed feedback
 - The controller takes slope changes (disturbances) into account by observing the speed (feedback )
 - This solution is with feedback (closed-loop control)
 
@@ -268,7 +268,7 @@ $$
 
 ### **Laplace transform**
 
-> The Laplace transform  $X(s) $ of a function  $x(t) $, for  $t > 0 $, is defined by
+> The Laplace transform  $X(s) $ of a function  $x(t)$, for  $t > 0$, is defined by
 > $$ \mathcal{L} \{ x(t) \} := X(s) = \lim_{T \to \infty} \int_{\tau=0}^{T} x(\tau) e^{-s\tau} \, \mathrm{d}\tau, $$
 > where  $s $ is a complex number.
 
@@ -289,19 +289,18 @@ $$
 
 - Example 1: consider the function $x(t) = 1$:  
   $$
-  \mathcal{L}\{1\} = \int_0^\infty e^{-st} dt = \left-\frac{1}{s} e^{-st}\right_0^\infty = \frac{1}{s}
+  \mathcal{L}\{1\} = \int_0^\infty e^{-st} dt = \left[-\frac{1}{s} e^{-st}\right]_0^\infty = \frac{1}{s}
   $$
 
 - Example 2: consider the function $x(t) = e^{at}$, where $a$ is a constant:  
   $$
-  \mathcal{L}\{e^{at}\} = \int_0^\infty e^{at} e^{-st} dt = \int_0^\infty e^{-(s-a)t} dt = \left-\frac{1}{s-a} e^{-(s-a)t}\right_0^\infty = \frac{1}{s-a}
+  \mathcal{L}\{e^{at}\} = \int_0^\infty e^{at} e^{-st} dt = \int_0^\infty e^{-(s-a)t} dt = \left[-\frac{1}{s-a} e^{-(s-a)t}\right]_0^\infty = \frac{1}{s-a}
   $$
 
 - Example 3: consider the function $x(t) = t$ (for a reminder on integration by parts, see the appendix):  
   $$
-  \mathcal{L}\{t\} = \int_0^\infty t e^{-st} dt = \left-\frac{1}{s} t e^{-st}\right_0^\infty + \int_0^\infty \frac{1}{s} e^{-st} dt = \frac{1}{s^2}
+  \mathcal{L}\{t\} = \int_0^\infty t e^{-st} dt = \left[-\frac{1}{s} t e^{-st}\right]_0^\infty + \int_0^\infty \frac{1}{s} e^{-st} dt = \frac{1}{s^2}
   $$
-
 ## From properties of the Laplace transform
 
 Linearity   
@@ -347,7 +346,7 @@ $$
 f(0) = \lim_{s \to \infty} sF(s)
 $$
 
-#@ From a list of known Laplace transforms
+## From a list of known Laplace transforms
 
 | Waveform: <br> $g(t)$ (defined for $t \geq 0$) | Laplace Transform: <br> $G(s) = \mathcal{L}\{g(t)\} = \int_0^\infty g(t)e^{-st}dt$ |
 |---------------------------------------------------|---------------------------------------------------------------------------------|

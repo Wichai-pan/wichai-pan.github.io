@@ -442,24 +442,16 @@ $$
 &= z^{k_0} \sum_{m=k_0}^\infty x_m z^{-m} = z^{k_0} \left( \sum_{m=0}^\infty x_m z^{-m} - \sum_{m=0}^{k_0-1} x_m z^{-m} \right)
 \end{aligned}
 $$
-
----
-
-**Aalto University**  
-School of Electrical Engineering  
-**ELEC-E8101: Digital and Optimal Control**  
-Dominik Baumann  
-
-28/46  
-Sep. 08, 2025  
-_Analysis of discrete-time systems using_ *z*-transforms
-
 ## Properties of **z**-transforms
 
 Differentiation in the **z**-domain
 
+  
+
 $$
-\{ x_k \xleftrightarrowz{} X(z), \text{ROC}_x \} \implies  \left\{ k x_k \xleftrightarrowz{} -z \frac{d}{dz} X(z), \text{ROC}_x, \text{ possibly except } z=0 \right\}
+
+\{ x_k \xleftrightarrow[z]{} X(z), \text{ROC}_x \} \implies \left\{ k x_k \xleftrightarrow[z]{} -z \frac{d}{dz} X(z), \text{ROC}_x, \text{ possibly except } z=0 \right\}
+
 $$
 
 Proof
@@ -478,7 +470,7 @@ $$
 $$
 
 
-[Initial value theorem (IVT)](https://)
+Initial value theorem (IVT)
 
 $$
 x_0 = \lim_{z \to \infty} X(z)
