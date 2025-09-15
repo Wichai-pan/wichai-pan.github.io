@@ -125,7 +125,7 @@ By the end of this lecture, you should be able to:
 
 - The Laplace transform is given by  
   $$
-  \mathcal{L}\{x(t)\} := X(s) = \int_{t=-\infty}^{+\infty} x(t) e^{-st} \, dt
+  \mathscr{L}\{x(t)\} := X(s) = \int_{t=-\infty}^{+\infty} x(t) e^{-st} \, dt
   $$
 
 - **s** is a complex number and substituting $s = \sigma + j\omega$, we get  
@@ -514,14 +514,14 @@ $$
 $$
 
 
-| Property              | Expression                                                                                                                               |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| **Linearity**         | $\mathcal{Z}\left(ax_k^1 + bx_k^2\right) = a \mathcal{Z}\left(x_k^1\right) + b \mathcal{Z}\left(x_k^2\right)$                          |
-| **Delays**            | $\mathcal{Z}_+\{x_{k-k_0}\} = z^{-k_0} \left( X_+(z) + \sum_{m=-k_0}^{-1} x_m z^{-m} \right)$ <br>ROC$_x$ except $z=0$              |
-| **Predictions**       | $\mathcal{Z}_+\{x_{k+k_0}\} = z^{k_0} \left( X_+(z) - \sum_{m=0}^{k_0-1} x_m z^{-m} \right)$ <br>ROC$_x$ except $z=\infty$           |
-| **Differentiation**   | $\{x_k \xleftrightarrow{\mathcal{Z}} X(z), \text{ROC}_x\} \implies \left\{ kx_k \xleftrightarrow{\mathcal{Z}} -z \frac{d}{dz} X(z), \text{ROC}_x, \text{ possibly except } z=0 \right\}$ |
-| **Initial value theorem** | $x_0 = \lim_{z \to \infty} X(z)$                                                                                                |
-| **Final value theorem**   | $x_\infty := \lim_{k \to \infty} x_k = \lim_{z \to 1} (z - 1) X(z)$                                                                |
+| Property                  | Expression                                                                                                                                                                               |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Linearity**             | $\mathcal{Z}\left(ax_k^1 + bx_k^2\right) = a \mathcal{Z}\left(x_k^1\right) + b \mathcal{Z}\left(x_k^2\right)$                                                                            |
+| **Delays**                | $\mathcal{Z}_+\{x_{k-k_0}\} = z^{-k_0} \left( X_+(z) + \sum_{m=-k_0}^{-1} x_m z^{-m} \right)$ <br>ROC$_x$ except $z=0$                                                                   |
+| **Predictions**           | $\mathcal{Z}_+\{x_{k+k_0}\} = z^{k_0} \left( X_+(z) - \sum_{m=0}^{k_0-1} x_m z^{-m} \right)$ <br>ROC$_x$ except $z=\infty$                                                               |
+| **Differentiation**       | $\{x_k \xleftrightarrow{\mathcal{Z}} X(z), \text{ROC}_x\} \implies \left\{ kx_k \xleftrightarrow{\mathcal{Z}} -z \frac{d}{dz} X(z), \text{ROC}_x, \text{ possibly except } z=0 \right\}$ |
+| **Initial value theorem** | $x_0 = \lim_{z \to \infty} X(z)$                                                                                                                                                         |
+| **Final value theorem**   | $x_\infty := \lim_{k \to \infty} x_k = \lim_{z \to 1} (z - 1) X(z)$                                                                                                                      |
 
 
 ## Inverse z-transform

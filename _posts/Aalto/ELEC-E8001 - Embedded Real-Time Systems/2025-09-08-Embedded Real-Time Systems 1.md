@@ -232,8 +232,8 @@ The CPU utilization (or time-loading factor) (*U*) is a relative measure of the 
 ### CPU Utilization Factor
 
 Utilization factor is calculated by summing the contribution of utilization factors for each task  
-- Suppose a system has  $n \geq 1 $ periodic tasks, each with an [execution period](#) of  $p_i $  
-- If task  $i $ is known to have a [worst-case execution time](#) of  $e_i $, then the utilization factor,  $u_i $, for task  $i $ is:  
+- Suppose a system has  $n \geq1 $ periodic tasks, each with an [execution period](#) of  $p_i$  
+- If task  $i $is known to have a [worst-case execution time](#) of  $e_i$, then the utilization factor,  $u_i$, for task  $i$ is:  
 
 $$
 u_i = \frac{e_i}{p_i}

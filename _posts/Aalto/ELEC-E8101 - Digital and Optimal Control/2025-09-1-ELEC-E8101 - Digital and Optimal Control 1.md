@@ -134,7 +134,8 @@ reference point → Controller → Plant → plant output
 
 - Complicated controllers implemented in software may have **software errors**
 - Most control processes are analog in nature:
-  - Signal from digital controller → converted to analog (D/A converter) – hold
+  - Signal from digital controller → converted to analog (D/A converter) – hold 
+	  - ？
   - Signal to the digital controller → converted to digital (A/D converter) – sampling
   - Converting signals can cause **information loss**
 ![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250913210718531.png)
@@ -178,7 +179,7 @@ reference point → Controller → Plant → plant output
   U(s) = K \frac{b}{a} U_c(s) - K \frac{s + b}{s + a} Y(s),
   $$
 
-  where *u_c* is the reference signal.
+  where $u_c$ is the reference signal.
 - Discretize the analog servo controller to obtain a digital one!
 - To obtain a digital controller, the servo controller is first re-written:
 
@@ -268,15 +269,15 @@ $$
 
 ### **Laplace transform**
 
-> The Laplace transform  $X(s) $ of a function  $x(t)$, for  $t > 0$, is defined by
-> $$ \mathcal{L} \{ x(t) \} := X(s) = \lim_{T \to \infty} \int_{\tau=0}^{T} x(\tau) e^{-s\tau} \, \mathrm{d}\tau, $$
-> where  $s $ is a complex number.
+> The Laplace transform  $X(s)$ of a function  $x(t)$, for  $t > 0$, is defined by
+> $$ \mathscr{L} \{ x(t) \} := X(s) = \lim_{T \to \infty} \int_{\tau=0}^{T} x(\tau) e^{-s\tau} \, \mathrm{d}\tau, $$
+> where  $s$ is a complex number.
 
 
 - There are **3 main tools for obtaining Laplace transforms**  
   - The definition  
   - Laplace transform properties  
-  - Lists of transforms of known functions  
+  - Lists of transforms of known functions   
 - In what follows, we will study the 3 approaches
 
 
@@ -289,51 +290,51 @@ $$
 
 - Example 1: consider the function $x(t) = 1$:  
   $$
-  \mathcal{L}\{1\} = \int_0^\infty e^{-st} dt = \left[-\frac{1}{s} e^{-st}\right]_0^\infty = \frac{1}{s}
+  \mathscr{L}\{1\} = \int_0^\infty e^{-st} dt = \left[-\frac{1}{s} e^{-st}\right]_0^\infty = \frac{1}{s}
   $$
 
 - Example 2: consider the function $x(t) = e^{at}$, where $a$ is a constant:  
   $$
-  \mathcal{L}\{e^{at}\} = \int_0^\infty e^{at} e^{-st} dt = \int_0^\infty e^{-(s-a)t} dt = \left[-\frac{1}{s-a} e^{-(s-a)t}\right]_0^\infty = \frac{1}{s-a}
+  \mathscr{L}\{e^{at}\} = \int_0^\infty e^{at} e^{-st} dt = \int_0^\infty e^{-(s-a)t} dt = \left[-\frac{1}{s-a} e^{-(s-a)t}\right]_0^\infty = \frac{1}{s-a}
   $$
 
 - Example 3: consider the function $x(t) = t$ (for a reminder on integration by parts, see the appendix):  
   $$
-  \mathcal{L}\{t\} = \int_0^\infty t e^{-st} dt = \left[-\frac{1}{s} t e^{-st}\right]_0^\infty + \int_0^\infty \frac{1}{s} e^{-st} dt = \frac{1}{s^2}
+  \mathscr{L}\{t\} = \int_0^\infty t e^{-st} dt = \left[-\frac{1}{s} t e^{-st}\right]_0^\infty + \int_0^\infty \frac{1}{s} e^{-st} dt = \frac{1}{s^2}
   $$
 ## From properties of the Laplace transform
 
 Linearity   
 $$
-\mathcal{L}\{af(t) + bg(t)\} = a\mathcal{L}\{f(t)\} + b\mathcal{L}\{g(t)\}
+\mathscr{L}\{af(t) + bg(t)\} = a\mathcal{L}\{f(t)\} + b\mathcal{L}\{g(t)\}
 $$
 
 Derivative   
 $$
-\mathcal{L}\{f'(t)\} = sF(s) - f(0)
+\mathscr{L}\{f'(t)\} = sF(s) - f(0)
 $$
 
 Frequency shifting   
 $$
-\mathcal{L} \left\{ e^{at} f(t) \right\} = F(s - a)
+\mathscr{L} \left\{ e^{at} f(t) \right\} = F(s - a)
 $$
 
 Convolution   
 $$
-\mathcal{L}\{(f * g)(t)\} = F(s)G(s)
+\mathscr{L}\{(f * g)(t)\} = F(s)G(s)
 $$
 
 De Moivre’s   
 $$
-\mathcal{L}\{ \cos(at) + j \sin(at) \} = \mathcal{L} \left\{ e^{jat} \right\} = \frac{1}{s - ja} = \frac{s}{s^2 + a^2} + j \frac{a}{s^2 + a^2}
+\mathscr{L}\{ \cos(at) + j \sin(at) \} = \mathscr{L} \left\{ e^{jat} \right\} = \frac{1}{s - ja} = \frac{s}{s^2 + a^2} + j \frac{a}{s^2 + a^2}
 $$
 
 $$
-\mathcal{L}\{\cos(at)\} = \frac{s}{s^2 + a^2}
+\mathscr{L}\{\cos(at)\} = \frac{s}{s^2 + a^2}
 $$
 
 $$
-\mathcal{L}\{\sin(at)\} = \frac{a}{s^2 + a^2}
+\mathscr{L}\{\sin(at)\} = \frac{a}{s^2 + a^2}
 $$
 
 Final value theorem   
@@ -391,6 +392,10 @@ $$
 
 (Note: The circuit diagram shows a voltage source $u$, a 1 Ω resistor, and a 1 F capacitor with voltage $y$.)
 
+![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250914211720455.png)
+![image.png](https://wichaiblog-1316355194.cos.ap-hongkong.myqcloud.com/20250914211732599.png)
+
+ 
 ## Laplace transform – closing remarks
 
 - The Laplace transform can help with analyzing continuous-time systems
@@ -460,4 +465,78 @@ $$
 
 $$
 \frac{P(s)}{(as + b)^{2}(ds + e)} \rightarrow \frac{A}{as + b} + \frac{B}{(as + b)^2} + \frac{C}{ds + e}
+$$ 
+
+---
+
+## 1. 什么是拉普拉斯变换？
+
+拉普拉斯变换（Laplace Transform）是一种 **积分变换工具**，作用是把一个时间函数（随 $t$ 变化的信号，比如电路里的电压、电流）转化为复频域（以复数变量 $s$ 表示）的函数。
+
+数学定义：
+
 $$
+X(s) = \mathcal{L}\{x(t)\} = \int_0^\infty x(t) e^{-st} \, dt, \quad s \in \mathbb{C}.
+$$
+
+这里：
+
+* $x(t)$：原始时间信号；
+* $X(s)$：变换后的函数（频域表达式）。
+
+---
+
+## 2. 为什么要用它？
+
+它的最大好处是：
+
+* **把微分方程变成代数方程**。
+
+  * 时间域：$\frac{dy}{dt}$ 很难算；
+  * $s$-域：$\mathcal{L}\{\frac{dy}{dt}\} = sY(s) - y(0)$，变成乘法。
+
+👉 所以工程里（电路、控制系统）经常用它来解一阶/二阶的微分方程。
+
+---
+
+## 3. 变换之后是不是还需要反变换？
+
+对的！
+
+* **正变换**（Laplace Transform）：$x(t) \to X(s)$，方便我们解方程。
+* **反变换**（Inverse Laplace Transform）：$X(s) \to x(t)$，回到时间域，得到我们真正想要的解。
+
+符号写作：
+
+$$
+x(t) = \mathcal{L}^{-1}\{X(s)\}.
+$$
+
+举个例子：
+
+$$
+X(s) = \frac{1}{s} \quad \Rightarrow \quad x(t) = 1 \quad (t \ge 0).
+$$
+
+这就说明 $\frac{1}{s}$ 在 $s$-域里对应“阶跃函数”。
+
+---
+
+## 4. 用在电路题里的流程
+
+像你那道 RC 电路题，步骤就是：
+
+1. 写电路的微分方程；
+2. **拉普拉斯变换**，得到关于 $Y(s)$ 的代数方程；
+3. 解出 $Y(s)$；
+4. **反拉普拉斯变换**，得到最终的时间函数 $y(t)$。
+
+---
+
+✅ 小总结：
+
+* 拉普拉斯变换：时间函数 → 复频域函数；
+* 它能让“微分方程”变成“代数方程”；
+* 解完后必须 **反变换** 才能得到最终的时间解。
+
+---

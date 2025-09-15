@@ -17,10 +17,9 @@ kanban-plugin: board
 - [ ] 总结WS的题目
 - [ ] DOC Homework (group) Friday, 26.09. at 18:00.
 - [ ] SML quiz 2 9.24
-- [ ] WS pre quiz 2 9.12中午
-- [ ] WS homework 2 9.19
-- [ ] ML As
-- [ ] ML 项目第一阶段截止时间9.19
+- [ ] 复习数学，找对应课本
+- [ ] 回国机票
+- [ ] ERTS Ass2 9.22
 
 
 ## In Progress
@@ -30,19 +29,23 @@ kanban-plugin: board
 - [ ] Note for EM1
 - [ ] Note for ML1
 - [ ] Note for SML
-- [ ] Note for DO1
 - [ ] 回看学习SML1作业
 - [ ] Note for WS1 2 3 4
 - [ ] 处理prepaid卡
+- [ ] ML 项目第一阶段截止时间9.19
+- [ ] WS homework 2 9.19
+- [ ] ML As
 - [ ] CCS Tuesday, 16 September 2025, 14:30
-- [ ] DO quiz 1 9.15
-- [ ] EMR AS 1 DL 9.15
-- [ ] Academic Skills
 
 
 ## Done
 
 **完成**
+- [x] DO quiz 1 9.15 ✅ 2025-09-15
+- [x] Note for DO1 DO2 ✅ 2025-09-14
+- [x] Academic Skills ✅ 2025-09-14
+- [x] EMR AS 1 DL 9.15 ✅ 2025-09-14
+- [x] WS pre quiz 2 9.12中午 ✅ 2025-09-14
 - [x] 足球会员 ✅ 2025-09-14
 - [x] WS-Homework & Ex  due on 9.12 ✅ 2025-09-12
 - [x] ML Ass1 jynotebook due 9.11 ✅ 2025-09-11
@@ -99,6 +102,7 @@ kanban-plugin: board
 ## 
 
 - [ ] Nord 年订阅
+- [ ] chat订阅
 
 
 ***
