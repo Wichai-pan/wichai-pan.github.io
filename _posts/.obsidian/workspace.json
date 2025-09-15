@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-09-15-Embedded Real-Time Systems 2.md",
+                "file": "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md",
                 "mode": "source",
                 "source": false
               },
@@ -58,6 +58,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -115,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "f3d174e5c05d4e55",
@@ -180,13 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PLAN.md",
+                "file": "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PLAN 的大纲"
+              "title": "2025-09-15-Embedded Real-Time Systems 2 的大纲"
             }
           },
           {
@@ -209,10 +209,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "PLAN.md"
+                "file": "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md"
               },
               "icon": "lucide-info",
-              "title": "PLAN的笔记属性"
+              "title": "2025-09-15-Embedded Real-Time Systems 2的笔记属性"
             }
           },
           {
@@ -255,11 +255,11 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "27da77003670f1cf",
+  "active": "6fbe2cc9058d96da",
   "lastOpenFiles": [
-    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-08-Embedded Real-Time Systems 1.md",
-    "2025-09-15-Embedded Real-Time Systems 2.md",
     "PLAN.md",
+    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-08-Embedded Real-Time Systems 1.md",
+    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md",
     "image_link.md",
     "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-01-Embedded Real-Time Systems 0.md",
     "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-08-Digital and Optimal Control 2 Analysis of discrete-time systems using *z*-transforms.md",
