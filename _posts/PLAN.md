@@ -19,7 +19,9 @@ kanban-plugin: board
 - [ ] SML quiz 2 9.24
 - [ ] 复习数学，找对应课本
 - [ ] 回国机票
-- [ ] ERTS Ass2 9.22
+- [ ] DO quiz 2   9.22
+- [ ] SML note 2
+- [ ] CCS 2 9.30
 
 
 ## In Progress
@@ -34,13 +36,17 @@ kanban-plugin: board
 - [ ] 处理prepaid卡
 - [ ] ML 项目第一阶段截止时间9.19
 - [ ] WS homework 2 9.19
-- [ ] ML As
-- [ ] CCS Tuesday, 16 September 2025, 14:30
+- [ ] ERTS Ass2 9.22
+- [ ] DO 3 Note
 
 
 ## Done
 
 **完成**
+- [x] ML As 18 ✅ 2025-09-17
+- [x] CCS Tuesday, 16 September 2025, 14:30 ✅ 2025-09-16
+- [x] SML note 3 ✅ 2025-09-16
+- [x] ERTS post quiz 5 9.15 ✅ 2025-09-15
 - [x] DO quiz 1 9.15 ✅ 2025-09-15
 - [x] Note for DO1 DO2 ✅ 2025-09-14
 - [x] Academic Skills ✅ 2025-09-14
