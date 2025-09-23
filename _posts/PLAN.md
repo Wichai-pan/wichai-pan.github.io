@@ -16,12 +16,13 @@ kanban-plugin: board
 - [ ] Find what to do for Academic
 - [ ] 总结WS的题目
 - [ ] DOC Homework (group) Friday, 26.09. at 18:00.
-- [ ] SML quiz 2 9.24
 - [ ] 复习数学，找对应课本
 - [ ] 回国机票
-- [ ] DO quiz 2   9.22
 - [ ] SML note 2
 - [ ] CCS 2 9.30
+- [ ] ML 3 9.25
+- [ ] ML stage 2
+- [ ] 检查注册考试？
 
 
 ## In Progress
@@ -33,16 +34,23 @@ kanban-plugin: board
 - [ ] Note for SML
 - [ ] 回看学习SML1作业
 - [ ] Note for WS1 2 3 4
-- [ ] 处理prepaid卡
-- [ ] ML 项目第一阶段截止时间9.19
-- [ ] WS homework 2 9.19
-- [ ] ERTS Ass2 9.22
 - [ ] DO 3 Note
+- [ ] 周一晚project T1
+- [ ] 安装adobe
+- [ ] 安装matlab
+- [ ] SML quiz 2 9.24
 
 
 ## Done
 
 **完成**
+- [x] DO quiz 2   9.22 ✅ 2025-09-22
+- [x] ERTS Ass2 9.22 ✅ 2025-09-21
+- [x] postquiz 9.22 ✅ 2025-09-21
+- [x] WS homework 2 9.19 ✅ 2025-09-18
+- [x] ML 项目第一阶段截止时间9.19 ✅ 2025-09-20
+- [x] 处理prepaid卡 ✅ 2025-09-17
+- [x] 忘记了 ggPost-Lecture Quiz # 6 (Wed. 17.9 ✅ 2025-09-18
 - [x] ML As 18 ✅ 2025-09-17
 - [x] CCS Tuesday, 16 September 2025, 14:30 ✅ 2025-09-16
 - [x] SML note 3 ✅ 2025-09-16

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e153c60dd1b7e99b",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "27da77003670f1cf",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -29,8 +29,7 @@
               "title": "PLAN"
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PLAN.md",
+                "file": "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PLAN 的大纲"
+              "title": "2025-09-15-Embedded Real-Time Systems 2 的大纲"
             }
           },
           {
@@ -180,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "PLAN.md"
+                "file": "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md"
               },
               "icon": "lucide-info",
-              "title": "PLAN的笔记属性"
+              "title": "2025-09-15-Embedded Real-Time Systems 2的笔记属性"
             }
           },
           {
@@ -226,20 +225,22 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "27da77003670f1cf",
+  "active": "6fbe2cc9058d96da",
   "lastOpenFiles": [
-    "image_link.md",
-    "PLAN.md",
+    "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-23-Supervised Machine Learning Lecture 4 Model selection.md",
     "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-16-Supervised Machine Learning Lecture 3.md",
+    "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-02-CS-E4715 - Supervised Machine Learning 1.md",
     "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-09-CS-E4715 - Supervised Machine Learning 2.md",
+    "PLAN.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-21--Digital and Optimal Control  Discretization.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-08-Digital and Optimal Control 2 Analysis of discrete-time systems using *z*-transforms.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-1-ELEC-E8101 - Digital and Optimal Control 1.md",
     "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md",
+    "image_link.md",
     "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-08-Embedded Real-Time Systems 1.md",
     "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-01-Embedded Real-Time Systems 0.md",
-    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-08-Digital and Optimal Control 2 Analysis of discrete-time systems using *z*-transforms.md",
     "Aalto/CS-E4190 - Cloud Software and Systems/2025-09-01-Cloud Software and Systems 1.md",
-    "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-02-CS-E4715 - Supervised Machine Learning 1.md",
     "Aalto/CS-C3240 - Machine Learning/2025-09-03-ML-1.md",
-    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-1-ELEC-E8101 - Digital and Optimal Control 1.md",
     "Aalto/ELEC-E7120 Wireless Systems/2025-09-08-Wireless System 3.md",
     "Aalto/ELEC-E7120 Wireless Systems/2025-09-03-Wireless Systems 2.md",
     "Aalto/ELEC-E7120 Wireless Systems/2025-09-01-Wireless Systems.md",
@@ -256,8 +257,6 @@
     "未命名.base",
     "未命名.md",
     "MISCADA project/2025-05-20-project slide.md",
-    "MISCADA project/2025-05-26-project.md",
-    "2025-08-02-芬兰携带.md",
     "Document EM Notes.pdf",
     "Aalto/CS-C3240 - Machine Learning",
     "Aalto/ELEC-E7120 Wireless Systems/WS2025 Lecture 1.pdf",

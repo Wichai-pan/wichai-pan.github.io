@@ -231,7 +231,7 @@ Get new instruction into Instruction Register, based on Program Counter value
 **Decode**:  
 Translate what the instruction means  
 **Load**:  
-Move data from memory to datapath register  
+Move data from memory to data path register  
 **Execute**:  
 Move data through ALU  
 **Store**:  
