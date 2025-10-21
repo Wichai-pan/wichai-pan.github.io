@@ -15,35 +15,75 @@ kanban-plugin: board
 - [ ] 看WS EX1 录像
 - [ ] Find what to do for Academic
 - [ ] 总结WS的题目
-- [ ] DOC Homework (group) Friday, 26.09. at 18:00.
 - [ ] 复习数学，找对应课本
-- [ ] 回国机票
 - [ ] SML note 2
-- [ ] CCS 2 9.30
-- [ ] ML 3 9.25
-- [ ] ML stage 2
-- [ ] 检查注册考试？
+- [ ] 机票留学生证明
+- [ ] CCS 11.11
+- [ ] ERTS As 6
+- [ ] SP ex1 10.27
+- [ ] DO L7
+- [ ] DO quiz6 10.27
 
 
 ## In Progress
 
-- [ ] 更新简历 @{2025-02-26}
 - [ ] 总结读论文方法
 - [ ] Note for EM1
 - [ ] Note for ML1
 - [ ] Note for SML
 - [ ] 回看学习SML1作业
-- [ ] Note for WS1 2 3 4
 - [ ] DO 3 Note
-- [ ] 周一晚project T1
-- [ ] 安装adobe
-- [ ] 安装matlab
-- [ ] SML quiz 2 9.24
+- [ ] 复盘ML3
+- [ ] ER课录像
+- [ ] 预约毕业典礼 10/17邮件
+- [ ] DO Homework 3
+- [ ] ERTS As 6 10.28
+- [ ] ERTS L6
+- [ ] NS1 10.31
+- [ ] ML考试复习
+- [ ] 验证门禁卡
 
 
 ## Done
 
 **完成**
+- [x] 小组任务 ✅ 2025-10-21
+- [x] 检查注册考试？ ✅ 2025-10-21
+- [x] SP quiz 10.22 ✅ 2025-10-21
+- [x] ML peer grading 10.19 ✅ 2025-10-19
+- [x] 19 October 2025 feedback ✅ 2025-10-19
+- [x] Mobile 1 post quiz 10.19 ✅ 2025-10-20
+- [x] Find Student Number ✅ 2025-10-14
+- [x] DO quiz 5 10.13 ✅ 2025-10-13
+- [x] CCS 3 10.14 ✅ 2025-10-11
+- [x] 10.11 田生日 ✅ 2025-10-11
+- [x] WL Homework 10.10 ✅ 2025-10-11
+- [x] ML stage 2 10.8 ✅ 2025-10-10
+- [x] DO homework2 10.10 ✅ 2025-10-10
+- [x] 回国机票 ✅ 2025-10-07
+- [x] ML  5 10.10 ✅ 2025-10-10
+- [x] SML Quiz 3 **8 October** ✅ 2025-10-07
+- [x] 10.12 acdamic ✅ 2025-10-13
+- [x] ERTS quiz 10.10 ✅ 2025-10-06
+- [x] ERS quiz 10.6 ✅ 2025-10-06
+- [x] 更新简历 @{2025-02-26} ✅ 2025-10-03
+- [x] CCS 2 9.30 ✅ 2025-09-30
+- [x] ML 10.2 ✅ 2025-10-03
+- [x] DO quiz 3 9.29 ✅ 2025-09-29
+- [x] Acd deadline ✅ 2025-09-28
+- [x] pre quiz 9.29 ✅ 2025-09-29
+- [x] pre quiz ✅ 2025-09-29
+- [x] WS Homework 3 ✅ 2025-09-28
+- [x] DOC Homework (group) Friday, 26.09. at 18:00. ✅ 2025-09-28
+- [x] ML peer ✅ 2025-09-27
+- [x] ERTS AS 3 9/29 ✅ 2025-09-27
+- [x] ML 3 9.25 ✅ 2025-09-24
+- [x] DO quiz 4 10.6 ✅ 2025-10-06
+- [x] SML quiz 2 9.24 ✅ 2025-09-24
+- [x] 课后 quiz ✅ 2025-09-24
+- [x] 安装adobe ✅ 2025-09-23
+- [x] 周一晚project T1 ✅ 2025-09-23
+- [x] 安装matlab ✅ 2025-09-23
 - [x] DO quiz 2   9.22 ✅ 2025-09-22
 - [x] ERTS Ass2 9.22 ✅ 2025-09-21
 - [x] postquiz 9.22 ✅ 2025-09-21
@@ -115,8 +155,11 @@ kanban-plugin: board
 
 ## 
 
-- [ ] Nord 年订阅
+- [ ] Nord 年订阅 26 08 check
 - [ ] chat订阅
+- [ ] Huggingface 9$ 已经取消
+- [ ] cursor 20$ durham 账户 已经取消
+- [ ] 一年后取消google订阅 10.9
 
 
 ***

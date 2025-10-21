@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2025-09-21-Digital and Optimal Control Discretization
+title: 2025-09-15-Digital and Optimal Control Discretization
 author: wichai
 date: 2025-09-21 21:01
 categories:

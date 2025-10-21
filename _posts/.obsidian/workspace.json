@@ -11,22 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "PLAN.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-10-06-Digital and Optimal Control-Stability of discrete-time systems.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "PLAN"
+              "icon": "lucide-file",
+              "title": "2025-10-06-Digital and Optimal Control-Stability of discrete-time systems"
             }
           }
         ]
@@ -225,25 +217,30 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "6fbe2cc9058d96da",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "PLAN.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-1-ELEC-E8101 - Digital and Optimal Control 1.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-22-Digital and Optimal Control-Discrete PID controllers.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-15--Digital and Optimal Control  Discretization.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-08-Digital and Optimal Control 2 Analysis of discrete-time systems using *z*-transforms.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-29-Digital and Optimal Control State-space representation.md",
+    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-10-06-Digital and Optimal Control-Stability of discrete-time systems.md",
+    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-21-Embedded Real Time Systems 3 Memory Technology.md",
+    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md",
+    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-08-Embedded Real-Time Systems 1.md",
+    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-01-Embedded Real-Time Systems 0.md",
+    "2025-09-26-.md",
+    "Aalto/ELEC-E7120 Wireless Systems/2025-09-08-Wireless System 3.md",
+    "Aalto/ELEC-E7120 Wireless Systems/2025-09-03-Wireless Systems 2.md",
+    "Aalto/ELEC-E7120 Wireless Systems/2025-09-01-Wireless Systems.md",
     "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-23-Supervised Machine Learning Lecture 4 Model selection.md",
     "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-16-Supervised Machine Learning Lecture 3.md",
     "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-02-CS-E4715 - Supervised Machine Learning 1.md",
     "Aalto/CS-E4715 - Supervised Machine Learning/2025-09-09-CS-E4715 - Supervised Machine Learning 2.md",
-    "PLAN.md",
-    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-21--Digital and Optimal Control  Discretization.md",
-    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-08-Digital and Optimal Control 2 Analysis of discrete-time systems using *z*-transforms.md",
-    "Aalto/ELEC-E8101 - Digital and Optimal Control/2025-09-1-ELEC-E8101 - Digital and Optimal Control 1.md",
-    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-15-Embedded Real-Time Systems 2.md",
     "image_link.md",
-    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-08-Embedded Real-Time Systems 1.md",
-    "Aalto/ELEC-E8001 - Embedded Real-Time Systems/2025-09-01-Embedded Real-Time Systems 0.md",
     "Aalto/CS-E4190 - Cloud Software and Systems/2025-09-01-Cloud Software and Systems 1.md",
     "Aalto/CS-C3240 - Machine Learning/2025-09-03-ML-1.md",
-    "Aalto/ELEC-E7120 Wireless Systems/2025-09-08-Wireless System 3.md",
-    "Aalto/ELEC-E7120 Wireless Systems/2025-09-03-Wireless Systems 2.md",
-    "Aalto/ELEC-E7120 Wireless Systems/2025-09-01-Wireless Systems.md",
     "Miscellaneous/2024-12-13-Latex-Greek_alpha.md",
     "Miscellaneous/2024-11-20-Remote SSH key configuration.md",
     "Miscellaneous/Reading Method/2025-02-26-How to read a paper.md",
@@ -251,12 +248,7 @@
     "Aalto/ELEC-E8101 - Digital and Optimal Control",
     "Aalto/CS-E4715 - Supervised Machine Learning",
     "2025-05-12.md",
-    "Robotics/2024-11-12-Robotics-1.md",
-    "template/post_note.md",
-    "Miscellaneous/2025-05-12-Mac备忘录.md",
     "未命名.base",
-    "未命名.md",
-    "MISCADA project/2025-05-20-project slide.md",
     "Document EM Notes.pdf",
     "Aalto/CS-C3240 - Machine Learning",
     "Aalto/ELEC-E7120 Wireless Systems/WS2025 Lecture 1.pdf",
